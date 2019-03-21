@@ -26,6 +26,9 @@ $('.show').bind('click', function() {
     
 });
     
-
+// Build Galleries
+$( '.gallery' ).each(function() {
+    $( this ).find('a').simpleLightbox();
+});
     
 }); // End jQuery
