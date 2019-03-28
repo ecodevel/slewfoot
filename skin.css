@@ -54,15 +54,13 @@ a:hover {
 nav {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: 2rem;
     align-items: center;
-    justify-content: center;
     text-align: center;
 }
 
 nav a:link, nav a:visited, nav a:hover, nav a:active {
-    display: flex;
-    justify-content:center;
     width: 100%;
     color: rgb(27,17,7);
     padding: 1rem;
@@ -78,26 +76,59 @@ nav a:hover {
     border: none;
 }
 
+nav .selected:link, nav .selected:visited, nav .selected:hover, nav .selected:active {
+    background-color: #fff;
+}
+
+nav a:last-child img {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    vertical-align: middle;
+    margin: -0.2rem .2rem 0 0;
+}
+
 @media only screen and (min-width: 568px) {
     nav {
-         flex-direction: row;
+        flex-direction: row;
+        justify-content: flex-start;
+        border-bottom: 1px solid rgb(225,175,0);
+    }
+    nav a:link, nav a:visited, nav a:hover, nav a:active {
+        margin: .2rem .2rem 0 .2rem;
+        border-radius: 6px 6px 0 0;
+        flex-basis: 10rem;
+        align-self: flex-end;
+    }
+    nav a:last-child {
+        display: block;
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        width: 12rem;
+        border-radius: 6px;
     }
 }
 
 /* ANIMAL */
 
+.animals {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 @keyframes showAnimal {
     from { background-color: rgba(245,245,243,0.9); }
-    to { background-color: rgba(27,17,7,0.9); }
+    to { background-color: rgba(27,17,7,0); }
 }
 
 @keyframes hideAnimal {
-    from { background-color: rgba(27,17,7,0.9); }
+    from { background-color: rgba(27,17,7,0); }
     to { background-color: rgba(245,245,243,0.9); }
 }
 
 .animal {
-    background-color: rgba(27,17,7,0.9);
+    /* background-color: rgba(27,17,7,0.9);*/
     padding: 36px; 
 }
 
@@ -110,7 +141,8 @@ nav a:hover {
 
 @media only screen and (min-width: 1280px) {
     .animal {
-        width: 50%;
+        box-sizing: border-box;
+        flex-basis: 50%;
     }
 }
 
@@ -160,6 +192,16 @@ nav a:hover {
     flex-basis: 50%;
 }
 
+.gallery a:hover {
+    border: none;
+    background-color: rgb(225,175,0);
+    display: block;
+}
+
+.gallery a:hover img {
+    opacity: 0.8;
+}
+
 @media only screen and (min-width: 568px) {
     .animal-pics {
         flex-direction: row;
@@ -192,6 +234,10 @@ nav a:hover {
     width: 100%;
     height: 100%;
     cursor: pointer;
+}
+
+.animal-pics .photo .show:hover {
+    content:url("img/icon-show.svg");
 }
 
 footer {
