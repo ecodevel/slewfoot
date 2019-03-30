@@ -65,7 +65,11 @@ $('nav a:last-child').click(function() {
   alert( "Jordi makes all the animals come alive :D" );
 });
 $('nav a:last-child').hover(function() {
-    $( this ).children('img').attr('src', 'img/_hide.png'); // And this mouseout?
-});
+    $(this).addClass('hide');
+    $(this).removeClass('show');
+    }, function () {
+        $(this).addClass('show');
+        $(this).removeClass('hide');
+    });
     
 }); // End jQuery
