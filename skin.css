@@ -170,6 +170,19 @@ nav a:last-child img {
     font-weight: 700;
 }
 
+.species a:link, .species a:visited, .species a:hover, .species a:active {
+    display: inline-block;
+    padding: .2rem .8rem;
+    background: rgb(225,175,0);
+    border: none;
+    border-radius: 3px;
+    color: rgb(27,17,7);
+}
+
+.species a:hover {
+    background: #fff;
+}
+
 .animal-pics {
     display: flex;
     flex-direction: column;
