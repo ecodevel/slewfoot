@@ -43,11 +43,11 @@ a:hover {
 
 /* Need to tweak the background image size */
 
-a.show {
+a.showAll {
     background: url("img/_show.png") no-repeat 0% 50%;
 }
 
-a.hide {
+a.hideAll {
     background: url("img/_hide.png") no-repeat 0% 50%;
 }
 

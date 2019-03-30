@@ -1,16 +1,13 @@
 $(function() { // Init jQuery
 
-
-    
-// Show hide  
-$('.show').bind('click', function() {
-    var el = $( this ).parent().parent().parent();
+function showAndHide (or) {
+    var el = $( or ).parent().parent().parent();
     if ( $(el).hasClass( 'off' ) ) {
         // ON
         $( el ).addClass('on');
         $( el ).removeClass('off');
-        $( this ).attr('src', 'img/icon-hide.svg');
-        $( this ).prev().animate( {opacity: 1} );
+        $( or ).attr('src', 'img/icon-hide.svg');
+        $( or ).prev().animate( {opacity: 1} );
         $( el ).removeClass('animalOn');
         $( el ).addClass('animalOff');
         $( el ).find('h1, h4, p.desc, p.species').slideDown('fast');
@@ -18,12 +15,17 @@ $('.show').bind('click', function() {
         // OFF
         $( el ).addClass('off');
         $( el ).removeClass('on');
-        $( this ).attr('src', 'img/icon-show.svg');
-        $( this ).prev().animate( {opacity: .1} );
+        $( or ).attr('src', 'img/icon-show.svg');
+        $( or ).prev().animate( {opacity: .1} );
         $( el ).removeClass('animalOff');
         $( el ).addClass('animalOn');
         $( el ).find('h1, h4, p.desc, p.species').slideUp('fast');
     }
+};
+    
+// Show hide  
+$('.show').bind('click', function() {
+    showAndHide (this);
 });
     
 /*
@@ -62,14 +64,17 @@ $('.gallery').each(function() {
     
 // Show all button
 $('nav a:last-child').click(function() {
-  alert( "Jordi makes all the animals come alive :D" );
+    $( '.show' ).each(function() {
+        showAndHide(this);
+    });
 });
+
 $('nav a:last-child').hover(function() {
-    $(this).addClass('hide');
-    $(this).removeClass('show');
+    $(this).addClass('hideAll');
+    $(this).removeClass('showAll');
     }, function () {
-        $(this).addClass('show');
-        $(this).removeClass('hide');
+        $(this).addClass('showAll');
+        $(this).removeClass('hideAll');
     });
     
 }); // End jQuery
