@@ -1,9 +1,7 @@
 $(function() { // Init jQuery
 
-// Show hide method for div species
-function showAndHide (or) {
-    var el = $( or ).parent().parent().parent();
-    if ( $(el).hasClass( 'off' ) ) {
+function turnOn(el, or, isOn) {
+    if ( isOn === true) {
         // ON
         $( el ).addClass('on');
         $( el ).removeClass('off');
@@ -12,7 +10,8 @@ function showAndHide (or) {
         $( el ).removeClass('animalOn');
         $( el ).addClass('animalOff');
         $( el ).find('h1, h4, p.desc, p.species').slideDown('fast');
-    } else {
+    }
+    else {
         // OFF
         $( el ).addClass('off');
         $( el ).removeClass('on');
@@ -23,6 +22,26 @@ function showAndHide (or) {
         $( el ).find('h1, h4, p.desc, p.species').slideUp('fast');
     }
 };
+// Show hide method for div species
+function showAndHide (or, showAll) {
+    var el = $( or ).parent().parent().parent();
+    if (typeof showAll === "undefined" || showAll === null) { 
+        if ( $(el).hasClass( 'off' ) ) {
+            turnOn(el, or, true);
+        } else {
+            turnOn(el, or, false);
+        }
+    }
+    else {
+        if (showAll === true) {
+            turnOn(el, or, true);
+        }
+        else {
+            turnOn(el, or, false);
+        }
+    }
+    
+};
     
 // Show hide animals upon click
 $('.show').bind('click', function() {
@@ -30,12 +49,23 @@ $('.show').bind('click', function() {
 });
 
 // Show hide rollover
-// Personally I find more elegant CSS img backgrounds like I did for the SHOW ALL button
-// but no big deal.
 $('.show').hover(function() {
-    $( this ).attr('src', 'img/icon-show.svg');
-    }, function () {
+    var el = $( this ).parent().parent().parent();
+    if ($ ( el ).hasClass('on') ) {
         $( this ).attr('src', 'img/icon-hide.svg');
+    }
+    else{
+        $( this ).attr('src', 'img/icon-show.svg');
+    }
+   
+    }, function () {
+        var el = $( this ).parent().parent().parent();
+        if ($ ( el ).hasClass('off') ) {
+            $( this ).attr('src', 'img/icon-hide.svg');
+        }
+        else{
+            $( this ).attr('src', 'img/icon-show.svg');
+        }
 });
     
 // Build Galleries
@@ -46,17 +76,28 @@ $('.gallery').each(function() {
 
 // Show all button
 $('nav a:last-child').click(function() {
+    var showAll = false;
+    if ($ (this).hasClass( 'collapsed' )) {
+        $ (this).html('Hide all');
+        showAll = true;
+        $ (this).removeClass( 'collapsed' )
+    }
+    else {
+        $ (this).html('Show all');
+        $ (this).addClass( 'collapsed' )
+    }
     $( '.show' ).each(function() {
-        showAndHide(this);
+        showAndHide(this, showAll);
     });
 });
 
 $('nav a:last-child').hover(function() {
-    $(this).addClass('hideAll');
-    $(this).removeClass('showAll');
-    }, function () {
         $(this).addClass('showAll');
         $(this).removeClass('hideAll');
+    }, function () {
+        $(this).addClass('hideAll');
+        $(this).removeClass('showAll');
+        
 });
     
 }); // End jQuery

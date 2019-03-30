@@ -41,7 +41,7 @@ a:hover {
     border-bottom: 2px solid;
 }
 
-/* Need to tweak the background image size */
+/* Need to tweak the background image size or feel free to set attr via JS */
 
 a.showAll {
     background: url("img/_show.png") no-repeat 0% 50%;
