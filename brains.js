@@ -24,30 +24,19 @@ function showAndHide (or) {
     }
 };
     
-// Show hide  
+// Show hide animals upon click
 $('.show').bind('click', function() {
     showAndHide (this);
 });
-    
-/*
-Show hide rollover thing that Jordi can write?
-If you do please delete this CSS class '.animal-pics .photo .show:hover'
 
-function toggleShowHide {
-    if xxx has class 'off' {
+// Show hide rollover
+// Personally I find more elegant CSS img backgrounds like I did for the SHOW ALL button
+// but no big deal.
+$('.show').hover(function() {
+    $( this ).attr('src', 'img/icon-show.svg');
+    }, function () {
         $( this ).attr('src', 'img/icon-hide.svg');
-    } else {
-        $( this ).attr('src', 'img/icon-hide.svg');
-    }
-}
-.show.blind mouseover {
-    toggleShowHide();
-}
-.show.blind mouseout {
-    toggleShowHide();
-}
-
-*/
+});
     
 // Build Galleries
 $('.gallery').each(function() {
@@ -55,7 +44,6 @@ $('.gallery').each(function() {
     $( this ).find('a').simpleLightbox();
 });
 
-    
 // Show all button
 $('nav a:last-child').click(function() {
     $( '.show' ).each(function() {
@@ -69,6 +57,6 @@ $('nav a:last-child').hover(function() {
     }, function () {
         $(this).addClass('showAll');
         $(this).removeClass('hideAll');
-    });
+});
     
 }); // End jQuery

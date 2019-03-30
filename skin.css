@@ -246,10 +246,6 @@ nav a:last-child img {
     cursor: pointer;
 }
 
-.animal-pics .photo .show:hover {
-    content:url("img/icon-show.svg");
-}
-
 footer {
     text-align: center;
     margin: 2rem;
