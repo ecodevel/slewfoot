@@ -41,16 +41,6 @@ a:hover {
     border-bottom: 2px solid;
 }
 
-/* Need to tweak the background image size or feel free to set attr via JS */
-
-a.showAll {
-    background: url("img/_show.png") no-repeat 0% 50%;
-}
-
-a.hideAll {
-    background: url("img/_hide.png") no-repeat 0% 50%;
-}
-
 /* Header */
 .logo {
     text-indent: -9999px;

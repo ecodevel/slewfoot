@@ -78,12 +78,12 @@ $('.gallery').each(function() {
 $('nav a:last-child').click(function() {
     var showAll = false;
     if ($ (this).hasClass( 'collapsed' )) {
-        $ (this).html('Hide all');
+        $ (this).children('span').text('Hide all');
         showAll = true;
         $ (this).removeClass( 'collapsed' )
     }
     else {
-        $ (this).html('Show all');
+        $ (this).children('span').text('Show all');
         $ (this).addClass( 'collapsed' )
     }
     $( '.show' ).each(function() {
@@ -92,12 +92,9 @@ $('nav a:last-child').click(function() {
 });
 
 $('nav a:last-child').hover(function() {
-        $(this).addClass('showAll');
-        $(this).removeClass('hideAll');
+        $( this ).children('img').attr('src', 'img/_hide.png');
     }, function () {
-        $(this).addClass('hideAll');
-        $(this).removeClass('showAll');
-        
+        $( this ).children('img').attr('src', 'img/_show.png');        
 });
     
 }); // End jQuery
