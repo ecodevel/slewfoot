@@ -1,5 +1,6 @@
 $(function() { // Init jQuery
 
+// Show hide method for div species
 function showAndHide (or) {
     var el = $( or ).parent().parent().parent();
     if ( $(el).hasClass( 'off' ) ) {
@@ -50,15 +51,8 @@ function toggleShowHide {
     
 // Build Galleries
 $('.gallery').each(function() {
-    $( this ).find('a').simpleLightbox({
-        captions:true,
-        captionDelay:0,
-        captionSelector:'img',
-        captionType:'attr',
-        captionPosition:'bottom',
-        captionClass:'',
-        captionsData:'title' // None of these options working, trying to set up captions!
-    });
+    // From https://github.com/dbrekalo/simpleLightbox
+    $( this ).find('a').simpleLightbox();
 });
 
     
