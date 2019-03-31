@@ -38,7 +38,7 @@ var species = [
     {
         "category": "birds",
         "name":"Dotterel",
-        "subname":"Tūturiwhatu, Charadrius", 
+        "subname":"Tūturiwhatu, Charadrius Obscurus", 
         "scale":"scale", 
         "photos":[
             {"name":"a", "title":"Photo by Emily Roberts"}
