@@ -1,4 +1,74 @@
+var species = [
+    {
+        "name":"Oystercatcher",
+        "subname":"Torea, Haematopus", 
+        "scale":"scale", 
+        "photos":[
+            {"name":"a", "title":"Photo by Shaun Lee"},
+            {"name":"b", "title":"Photo by Emily Harris"},
+            {"name":"c", "title":"Photo by Shaun Lee"},
+            {"name":"d", "title":"Photo by Shaun Lee"}
+        ],
+        "photo":"photo",
+        "desc":"5cm in length. Oystercatchers walk on their toes so heel not always visible. Toes more chunky than Spur-winged plover.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/south-island-pied-oystercatcher","name":"South Island Pied Oystercatcher"},
+            {"link":"http://nzbirdsonline.org.nz/species/variable-oystercatcher","name":"Variable Oystercatcher"}
+        ]
+    },
+    {
+        "name":"Stilt",
+        "subname":"Himantopus", 
+        "scale":"scale", 
+        "photos":[
+            {"name":"a", "title":"Photo by Shaun Lee"},
+            {"name":"b", "title":"Photo by Shaun Lee"},
+            {"name":"c", "title":"Photo by Shaun Lee"},
+            {"name":"d", "title":"Photo by Shaun Lee"}
+        ],
+        "photo":"photo",
+        "desc":"4cm in length. Slimmer toes than oystercatcher and plover.",
+        "similar":[
+            {"link":"http://www.nzbirdsonline.org.nz/species/pied-stilt","name":"Pied Stilt"},
+            {"link":"http://nzbirdsonline.org.nz/species/black-stilt","name":"Black Stilt"}
+        ]
+    }
+];
+
 $(function() { // Init jQuery
+
+species.forEach(function(item){
+    var aname =  item["name"].toLowerCase();
+    var animal = "<div class='animal off'>" +
+        "<h1>" + item["name"] + "</h1>" +
+        "<h4>" + item["subname"] + "</h4>" +
+        "<div class='animal-pics'>" +
+        "<div class='column'><img src='img/birds/" + aname + "/scale.png'></div>" +
+        "<div class='column'>" +
+        "<div class='gallery'>";
+    item["photos"].forEach(function(photo){
+        animal = animal + "<div><a href='img/birds/" + aname + "/" + photo["name"] + ".jpg' title='" + photo["title"]  + "'><img src='img/birds/" + aname + "/-" + photo["name"] + ".jpg' ></a></div>";
+    });
+    animal = animal + 
+        "</div>" +
+        "</div>" +
+        "<div class='column photo'>" +
+        "<img class='thephoto' src='img/birds/" + aname + "/" + item["photo"] + ".jpg'>" +
+        "<img class='show' src='img/icon-hide.svg'>" + 
+        "</div>" +
+        "</div>" +
+        "<p class='desc'>" + item["desc"] + "</p>" +
+        "<p class='species'><span class='likely'>LIKELY SPECIES:</span>";
+    item["similar"].forEach(function(similar){
+        animal = animal + 
+            " <a target='_blank' href='" + similar["link"] + "'>" + 
+            similar["name"] + "</a>";
+    });
+    animal = animal + "</p>";
+    animal = animal + "</div>";
+    $('section.animals').append(animal);
+});
+
 
 function turnOn(el, or, isOn) {
     if ( isOn === true) {
