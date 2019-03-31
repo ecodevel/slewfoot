@@ -22,6 +22,7 @@ function turnOn(el, or, isOn) {
         $( el ).find('h1, h4, p.desc, p.species').slideUp('fast');
     }
 };
+
 // Show hide method for div species
 function showAndHide (or, showAll) {
     var el = $( or ).parent().parent().parent();
