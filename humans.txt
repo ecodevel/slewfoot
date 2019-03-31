@@ -1,0 +1,14 @@
+/* SITE */
+    Title: NZTracker.org
+    Language: English
+
+/* TEAM */
+    Design: Shaun Lee
+    Website: http://shaunlee.co.nz/
+    Contact: shaun [at] stet.co.nz
+    Twitter: @vegestoc
+
+    Development: Jordi Tablada
+    Website: http://jordi.nz/
+    Contact: hello [at] jordi.nz
+    Twitter: @jordi__nz
