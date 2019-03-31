@@ -34,6 +34,20 @@ var species = [
             {"link":"http://www.nzbirdsonline.org.nz/species/pied-stilt","name":"Pied Stilt"},
             {"link":"http://nzbirdsonline.org.nz/species/black-stilt","name":"Black Stilt"}
         ]
+    },
+    {
+        "category": "birds",
+        "name":"Dotterel",
+        "subname":"Tūturiwhatu, Charadrius", 
+        "scale":"scale", 
+        "photos":[
+            {"name":"a", "title":"Photo by Emily Roberts"}
+        ],
+        "photo":"photo",
+        "desc":"3cm in length with asymmetric toes. Dotterels walk on their toes so heel not often visible.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/new-zealand-dotterel","name":"South Island Pied Oystercatcher"}
+        ]
     }
 ];
 
@@ -48,9 +62,14 @@ species.forEach(function(item){
         "<div class='column'><img src='img/" + item["category"] + "/" + aname + "/scale.png'></div>" +
         "<div class='column'>" +
         "<div class='gallery'>";
+    var count_photos = 0;
     item["photos"].forEach(function(photo){
         animal = animal + "<div><a href='img/" + item["category"] + "/" + aname + "/" + photo["name"] + ".jpg' title='" + photo["title"]  + "'><img src='img/birds/" + aname + "/-" + photo["name"] + ".jpg' ></a></div>";
+        count_photos = count_photos + 1;
     });
+    for (var i = 4; i > count_photos; i--) {
+        animal = animal + "<div><img src='img/blank.png'></div>";
+    }
     animal = animal + 
         "</div>" +
         "</div>" +
