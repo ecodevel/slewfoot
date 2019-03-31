@@ -1,5 +1,6 @@
 var species = [
     {
+        "category": "birds",
         "name":"Oystercatcher",
         "subname":"Torea, Haematopus", 
         "scale":"scale", 
@@ -17,6 +18,7 @@ var species = [
         ]
     },
     {
+        "category": "birds",
         "name":"Stilt",
         "subname":"Himantopus", 
         "scale":"scale", 
@@ -43,17 +45,17 @@ species.forEach(function(item){
         "<h1>" + item["name"] + "</h1>" +
         "<h4>" + item["subname"] + "</h4>" +
         "<div class='animal-pics'>" +
-        "<div class='column'><img src='img/birds/" + aname + "/scale.png'></div>" +
+        "<div class='column'><img src='img/" + item["category"] + "/" + aname + "/scale.png'></div>" +
         "<div class='column'>" +
         "<div class='gallery'>";
     item["photos"].forEach(function(photo){
-        animal = animal + "<div><a href='img/birds/" + aname + "/" + photo["name"] + ".jpg' title='" + photo["title"]  + "'><img src='img/birds/" + aname + "/-" + photo["name"] + ".jpg' ></a></div>";
+        animal = animal + "<div><a href='img/" + item["category"] + "/" + aname + "/" + photo["name"] + ".jpg' title='" + photo["title"]  + "'><img src='img/birds/" + aname + "/-" + photo["name"] + ".jpg' ></a></div>";
     });
     animal = animal + 
         "</div>" +
         "</div>" +
         "<div class='column photo'>" +
-        "<img class='thephoto' src='img/birds/" + aname + "/" + item["photo"] + ".jpg'>" +
+        "<img class='thephoto' src='img/" + item["category"] + "/" + aname + "/" + item["photo"] + ".jpg'>" +
         "<img class='show' src='img/icon-hide.svg'>" + 
         "</div>" +
         "</div>" +
