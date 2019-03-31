@@ -46,7 +46,7 @@ var species = [
         "photo":"photo",
         "desc":"3cm in length with asymmetric toes. Dotterels walk on their toes so heel not often visible.",
         "similar":[
-            {"link":"http://nzbirdsonline.org.nz/species/new-zealand-dotterel","name":"South Island Pied Oystercatcher"}
+            {"link":"http://nzbirdsonline.org.nz/species/new-zealand-dotterel","name":"New Zealand Dotterel"}
         ]
     }
 ];
