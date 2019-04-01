@@ -48,13 +48,58 @@ var species = [
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/new-zealand-dotterel","name":"New Zealand Dotterel"}
         ]
+    },
+    {
+        "category": "birds",
+        "name":"Pied Shag",
+        "subname":"Kawau, Phalacrocorax varius", 
+        "scale":"scale", 
+        "photos":[
+            {"name":"a", "title":"Photo by Eliane Lagnaz"},
+            {"name":"b", "title":"Photo by Eliane Lagnaz"},
+            {"name":"c", "title":"Photo by Eliane Lagnaz"}
+        ],
+        "photo":"photo",
+        "desc":"9cm in length. More weight on the outer toe.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/pied-shag","name":"Pied Shag"}
+        ]
+    },
+    {
+        "category": "birds",
+        "name":"Pukeko",
+        "subname":"Australasian swamphen, Porphyrio melanotus", 
+        "scale":"scale", 
+        "photos":[
+            {"name":"a", "title":"Left front foot. Photo by Shaun Lee"}
+        ],
+        "photo":"photo",
+        "desc":"? in length.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/pukeko","name":"Pukeko"}
+        ]
+    },
+    {
+        "category": "mammals",
+        "name":"Hedgehog",
+        "subname":"Erinaceus europaeus occidentalis", 
+        "scale":"scale", 
+        "photos":[
+            {"name":"a", "title":"Left front foot. Photo by Shaun Lee"},
+        ],
+        "photo":"photo",
+        "desc":"Hedgehog toe pads are larger and closer to the central pad compared with rat or ferret prints. - http://www.landcareresearch.co.nz",
+        "similar":[
+            {"link":"http://www.pestdetective.org.nz/culprits/hedgehog/","name":"Hedgehog"}
+        ]
     }
 ];
 
 $(function() { // Init jQuery
 
+// Build HTML markup for each species in array
 species.forEach(function(item){
-    var aname =  item["name"].toLowerCase();
+    var aname =  item["name"].toLowerCase().replace(/\s/g , "-");
     var animal = "<div class='animal off'>" +
         "<h1>" + item["name"] + "</h1>" +
         "<h4>" + item["subname"] + "</h4>" +
@@ -64,7 +109,7 @@ species.forEach(function(item){
         "<div class='gallery'>";
     var count_photos = 0;
     item["photos"].forEach(function(photo){
-        animal = animal + "<div><a href='img/" + item["category"] + "/" + aname + "/" + photo["name"] + ".jpg' title='" + photo["title"]  + "'><img src='img/birds/" + aname + "/-" + photo["name"] + ".jpg' ></a></div>";
+        animal = animal + "<div><a href='img/" + item["category"] + "/" + aname + "/" + photo["name"] + ".jpg' title='" + photo["title"]  + "'><img src='img/" + item["category"] + "/" + aname + "/-" + photo["name"] + ".jpg' ></a></div>";
         count_photos = count_photos + 1;
     });
     for (var i = 4; i > count_photos; i--) {
@@ -90,7 +135,7 @@ species.forEach(function(item){
     $('section.animals').append(animal);
 });
 
-
+// Turn species on and off (show/hide)
 function turnOn(el, or, isOn) {
     if ( isOn === true) {
         // ON
