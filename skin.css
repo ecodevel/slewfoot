@@ -133,12 +133,12 @@ nav a:last-child img {
     padding: 36px; 
 }
 
-.animal.excluded {
-    display: none;
-}
-
 .animalOn { animation: showAnimal 200ms forwards ease-in; }
 .animalOff { animation: hideAnimal 200ms forwards ease-in; }
+
+.animal.excluded {
+    /* display: none; */
+}
 
 .animal h1, .animal h4, .animal .desc, .animal .species {
     display: none; /* Tuned off be default */

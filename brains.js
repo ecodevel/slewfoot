@@ -97,9 +97,11 @@ $('nav a[data-id!=""]').click(function() {
         var cat = $ (this).data('id');
         $( '.animal' ).each(function( i ) {
             if ( $ (this).data('id') == cat ) {
-                $ (this).removeClass('excluded');
+                // $ (this).removeClass('excluded');
+                $ (this).delay(100*i).fadeIn();
             } else {
-                $ (this).addClass('excluded');
+                // $ (this).addClass('excluded');
+                $ (this).delay(100*i).fadeOut();
             }
         });
     }

@@ -148,5 +148,21 @@ var species = [
             {"link":"http://www.nzbirdsonline.org.nz/species/eurasian-skylark","name":"Eurasian Skylark"},
             {"link":"http://www.nzbirdsonline.org.nz/species/new-zealand-pipit","name":"Pipit"}
         ]
+    },
+    {
+        "category": "other",
+        "name":"Large Sand Scarab",
+        "subname":"Pericoptus truncatus, Ngungutawa",
+        "folder": "large-sand-scarab",
+        "photos":[
+            {"name":"a", "title":"Photo by Shaun Lee"},
+            {"name":"b", "title":"Photo by Shaun Lee"},
+            {"name":"c", "title":"Photo by Shaun Lee"},
+            {"name":"d", "title":"Photo by Shaun Lee"}
+        ],
+        "desc":"Leaves distinctive trails at night. Can be found hidding in the sand during the day at the end of their tracks.",
+        "similar":[
+            {"link":"https://inaturalist.nz/taxa/408947-Pericoptus-truncatus","name":"Large Sand Scarab"}
+        ]
     }
 ];
