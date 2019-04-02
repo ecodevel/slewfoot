@@ -117,6 +117,7 @@ nav a:last-child img {
     flex-wrap: wrap;
 }
 
+
 @keyframes showAnimal {
     from { background-color: rgba(245,245,243,0.9); }
     to { background-color: rgba(27,17,7,0); }
@@ -130,6 +131,10 @@ nav a:last-child img {
 .animal {
     /* background-color: rgba(27,17,7,0.9);*/
     padding: 36px; 
+}
+
+.animal.excluded {
+    display: none;
 }
 
 .animalOn { animation: showAnimal 200ms forwards ease-in; }

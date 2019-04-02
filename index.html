@@ -20,6 +20,7 @@
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="sl/simpleLightbox.min.js"></script>
+        <script src="species.js"></script>
         <script src="brains.js"></script>
 
     </head>
@@ -35,231 +36,16 @@
            
            <!-- Start menu -->
             <nav class="menu">
-                <a class="button selected" href="#">Birds</a>
-                <a class="button" href="#">Mammals</a>
-                <a class="button" href="#">Other</a>
-                <a class="button collapsed" href="#"><img src="img/_show.png"><span>Show all</span></a>
+                <a class="button selected" href="#" data-id="birds" >Birds</a>
+                <a class="button" href="#" data-id="mammals" >Mammals</a>
+                <a class="button" href="#" data-id="other" >Other</a>
+                <a class="button collapsed" href="#" data-id=""><img src="img/_show.png"><span>Show all</span></a>
             </nav>
             <!-- End menu -->
             
             <!-- Start Animals -->
             <section class="animals">
-               
-                <!-- Start Animal -->
-                <!--<div class="animal off">
-                    <h1>Oystercatcher</h1>
-                    <h4>Torea, Haematopus</h4>
-                    <div class="animal-pics">
-                        <div class="column"><img src="img/birds/oystercatcher/scale.png"></div>
-                        <div class="column">
-                            <div class="gallery">
-                                <div><a href="img/birds/oystercatcher/a.jpg" title="Photo by Shaun Lee"><img src="img/birds/oystercatcher/-a.jpg" ></a></div>
-                                <div><a href="img/birds/oystercatcher/b.jpg" title="Photo by Emilly Harris"><img src="img/birds/oystercatcher/-b.jpg" ></a></div>
-                                <div><a href="img/birds/oystercatcher/c.jpg" title="Photo by Shaun Lee"><img src="img/birds/oystercatcher/-c.jpg" ></a></div>
-                                <div><a href="img/birds/oystercatcher/d.jpg" title="Photo by Shaun Lee"><img src="img/birds/oystercatcher/-d.jpg" ></a></div>
-                            </div>
-                        </div>
-                        <div class="column photo">
-                            <img class="thephoto" src="img/birds/oystercatcher/photo.jpg">
-                            <img class="show" src="img/icon-hide.svg">
-                        </div>
-                    </div>
-                    <p class="desc">5cm in length. Oystercatchers walk on their toes so heel not always visible. Toes more chunky than Spur-winged plover.</p>
-                    <p class="species"><span class="likely">LIKELY SPECIES:</span> <a target="_blank" href="http://nzbirdsonline.org.nz/species/south-island-pied-oystercatcher">South Island Pied Oystercatcher</a> <a target="_blank" href="http://nzbirdsonline.org.nz/species/variable-oystercatcher">Variable Oystercatcher</a></p>
-                </div> -->
-                <!-- End Animal -->
-
-                <!-- Start Animal -->
-                <!--<div class="animal off">
-                    <h1>Stilt</h1>
-                    <h4>Himantopus</h4>
-                    <div class="animal-pics">
-                        <div class="column"><img src="img/birds/stilt/scale.png"></div>
-                        <div class="column">
-                            <div class="gallery">
-                                <div><a href="img/birds/stilt/a.jpg" title="Photo by Shaun Lee"><img src="img/birds/stilt/-a.jpg" ></a></div>
-                                <div><a href="img/birds/stilt/b.jpg" title="Photo by Shaun Lee"><img src="img/birds/stilt/-b.jpg" ></a></div>
-                                <div><a href="img/birds/stilt/c.jpg" title="Photo by Shaun Lee"><img src="img/birds/stilt/-c.jpg" ></a></div>
-                                <div><a href="img/birds/stilt/d.jpg" title="Photo by Shaun Lee"><img src="img/birds/stilt/-d.jpg" ></a></div>
-                            </div>
-                        </div>
-                        <div class="column photo">
-                            <img class="thephoto" src="img/birds/stilt/photo.jpg">
-                            <img class="show" src="img/icon-hide.svg">
-                        </div>
-                    </div>
-                    <p class="desc">4cm in length. Slimmer toes than oystercatcher and plover.</p>
-                    <p class="species"><span class="likely">LIKELY SPECIES:</span> <a target="_blank" href="http://www.nzbirdsonline.org.nz/species/pied-stilt">Pied Stilt</a> <a target="_blank" href="http://nzbirdsonline.org.nz/species/black-stilt">Black Stilt</a></p>
-                </div>-->
-                <!-- End Animal -->
-                
-                <!-- Start Animal -->
-                <!--<div class="animal off">
-                    <h1>Pied Shag</h1>
-                    <h4>Kawau, Phalacrocorax varius</h4>
-                    <div class="animal-pics">
-                        <div class="column"><img src="img/birds/pied-shag/scale.png"></div>
-                        <div class="column">
-                            <div class="gallery">
-                                <div><a href="img/birds/pied-shag/a.jpg"  title="Photo by Eliane Lagnaz"><img src="img/birds/pied-shag/-a.jpg" ></a></div>
-                                <div><a href="img/birds/pied-shag/b.jpg" title="Photo by Eliane Lagnaz"><img src="img/birds/pied-shag/-b.jpg" ></a></div>
-                                <div><a href="img/birds/pied-shag/c.jpg" title="Photo by Eliane Lagnaz"><img src="img/birds/pied-shag/-c.jpg" ></a></div>
-                                <div><img src="img/blank.png"></div>
-                            </div>
-                        </div>
-                        <div class="column photo">
-                            <img class="thephoto" src="img/birds/pied-shag/photo.jpg">
-                            <img class="show" src="img/icon-hide.svg">
-                        </div>
-                    </div>
-                    <p class="desc">9cm in length. More weight on the outer toe.</p>
-                    <p class="species"><span class="likely">LIKELY SPECIES:</span> <a target="_blank" href="http://nzbirdsonline.org.nz/species/pied-shag">Pied Shag</a></p>
-                </div>-->
-                <!-- End Animal -->
-                
-                <!-- Start Animal -->
-                <!-- <div class="animal off">
-                    <h1>Pukeko</h1>
-                    <h4>Australasian swamphen, Porphyrio melanotus</h4>
-                    <div class="animal-pics">
-                        <div class="column"><img src="img/birds/pukeko/scale.png"></div>
-                        <div class="column">
-                            <div class="gallery">
-                                <div><a href="img/birds/pukeko/a.jpg"  title="Photo by Jordi Tablada"><img src="img/birds/pukeko/-a.jpg" ></a></div>
-                                <div><a href="img/birds/pukeko/b.jpg" title="Photo by Shaun Lee"><img src="img/birds/pukeko/-b.jpg" ></a></div>
-                                <div><img src="img/blank.png"></div>
-                                <div><img src="img/blank.png"></div>
-                            </div>
-                        </div>
-                        <div class="column photo">
-                            <img class="thephoto" src="img/birds/pukeko/photo.jpg">
-                            <img class="show" src="img/icon-hide.svg">
-                        </div>
-                    </div>
-                    <p class="desc">? in length.</p>
-                    <p class="species"><span class="likely">LIKELY SPECIES:</span> <a target="_blank" href="http://nzbirdsonline.org.nz/species/pukeko">Pukeko</a></p>
-                </div>-->
-                <!-- End Animal -->
-                
-                <!-- Start Animal -->
-                <!--<div class="animal off">
-                    <h1>Hedgehog</h1>
-                    <h4>Erinaceus europaeus occidentalis</h4>
-                    <div class="animal-pics">
-                        <div class="column"><img src="img/mammals/hedgehog/scale.png"></div>
-                        <div class="column">
-                            <div class="gallery">
-                                <div><a href="img/mammals/hedgehog/a.jpg"  title="Left front foot. Photo by Shaun Lee"><img src="img/mammals/hedgehog/-a.jpg" ></a></div>
-                                <div><img src="img/blank.png"></div>
-                                <div><img src="img/blank.png"></div>
-                                <div><img src="img/blank.png"></div>
-                            </div>
-                        </div>
-                        <div class="column photo">
-                            <img class="thephoto" src="img/mammals/hedgehog/photo.jpg">
-                            <img class="show" src="img/icon-hide.svg">
-                        </div>
-                    </div>
-                    <p class="desc">Hedgehog toe pads are larger and closer to the central pad compared with rat or ferret prints. - http://www.landcareresearch.co.nz</p>
-                    <p class="species"><span class="likely">LIKELY SPECIES:</span> <a target="_blank" href="http://www.pestdetective.org.nz/culprits/hedgehog/">Hedgehog</a></p>
-                </div>-->
-                <!-- End Animal -->
-                
-                <!-- Start Animal -->
-                <!--<div class="animal off">
-                    <h1>Southern black-backed gull</h1>
-                    <h4>Karoro, Kelp gull, Larus dominicanus</h4>
-                    <div class="animal-pics">
-                        <div class="column"><img src="img/birds/southern-black-backed-gull/scale.png"></div>
-                        <div class="column">
-                            <div class="gallery">
-                                <div><a href="img/birds/southern-black-backed-gull/a.jpg"  title="Photo by Shaun Lee"><img src="img/birds/southern-black-backed-gull/-a.jpg" ></a></div>
-                                <div><a href="img/birds/southern-black-backed-gull/b.jpg"  title="Photo by Shaun Lee"><img src="img/birds/southern-black-backed-gull/-b.jpg" ></a></div>
-                                <div><a href="img/birds/southern-black-backed-gull/c.jpg"  title="Photo by Shaun Lee"><img src="img/birds/southern-black-backed-gull/-c.jpg" ></a></div>
-                                <div><img src="img/blank.png"></div>
-                            </div>
-                        </div>
-                        <div class="column photo">
-                            <img class="thephoto" src="img/birds/southern-black-backed-gull/photo.jpg">
-                            <img class="show" src="img/icon-hide.svg">
-                        </div>
-                    </div>
-                    <p class="desc">7cm in length with webbing on feet noticeable in soft sand.</p>
-                    <p class="species"><span class="likely">LIKELY SPECIES:</span> <a target="_blank" href="http://www.nzbirdsonline.org.nz/species/southern-black-backed-gull">Southern black-backed gull</a></p>
-                </div>-->
-                <!-- End Animal -->
-                
-                <!--<div class="animal off">
-                    <h1>Gull</h1>
-                    <h4>Larus, Red-billed gull or Black-billed gull, Tarāpunga or Tarāpuka</h4>
-                    <div class="animal-pics">
-                        <div class="column"><img src="img/birds/gull/scale.png"></div>
-                        <div class="column">
-                            <div class="gallery">
-                                <div><a href="img/birds/gull/a.jpg"  title="Photo by Shaun Lee"><img src="img/birds/gull/-a.jpg" ></a></div>
-                                <div><a href="img/birds/gull/b.jpg"  title="Photo by Shaun Lee"><img src="img/birds/gull/-b.jpg" ></a></div>
-                                <div><a href="img/birds/gull/c.jpg"  title="Photo by Shaun Lee"><img src="img/birds/gull/-c.jpg" ></a></div>
-                                <div><a href="img/birds/gull/d.jpg"  title="Photo by Shaun Lee"><img src="img/birds/gull/-d.jpg" ></a></div>
-                            </div>
-                        </div>
-                        <div class="column photo">
-                            <img class="thephoto" src="img/birds/gull/photo.jpg">
-                            <img class="show" src="img/icon-hide.svg">
-                        </div>
-                    </div>
-                    <p class="desc">4.5cm in length with webbing visible in soft sand. Smaller prints than black-backed gull.</p>
-                    <p class="species"><span class="likely">LIKELY SPECIES:</span> <a target="_blank" href="http://www.nzbirdsonline.org.nz/species/red-billed-gull">Red-billed gull</a> <a target="_blank" href="http://www.nzbirdsonline.org.nz/species/black-billed-gull">Black-billed gull</a></p>
-                </div>-->
-                <!-- End Animal -->
-                
-                <!-- Start Animal -->
-                <!--<div class="animal off">
-                    <h1>Wild European Rabbit</h1>
-                    <h4>Rāpeti, Oryctolagus cuniculus</h4>
-                    <div class="animal-pics">
-                        <div class="column"><img src="img/mammals/rabbit/scale.png"></div>
-                        <div class="column">
-                            <div class="gallery">
-                                <div><a href="img/mammals/rabbit/a.jpg"  title="All four feet of a small rabbit landing together. Photo by Shaun Lee"><img src="img/mammals/rabbit/-a.jpg" ></a></div>
-                                <div><a href="img/mammals/rabbit/b.jpg"  title="All four feet of a small rabbit landing together, running fast. Photo by Shaun Lee"><img src="img/mammals/rabbit/-b.jpg" ></a></div>
-                                <div><img src="img/blank.png"></div>
-                                <div><img src="img/blank.png"></div>
-                            </div>
-                        </div>
-                        <div class="column photo">
-                            <img class="thephoto" src="img/mammals/rabbit/photo.jpg">
-                            <img class="show" src="img/icon-hide.svg">
-                        </div>
-                    </div>
-                    <p class="desc">Back feet much longer than front feet. Length of back feet not always obvious in sand if running.</p>
-                    <p class="species"><span class="likely">LIKELY SPECIES:</span> <a target="_blank" href="http://www.pestdetective.org.nz/culprits/rabbit/">Rabbit</a></p>
-                </div>-->
-                <!-- End Animal -->
-                
-                <!-- Start Animal -->
-                <!--<div class="animal off">
-                    <h1>Skylark or Pipit</h1>
-                    <h4>Alauda arvensis or Anthus novaeseelandiae</h4>
-                    <div class="animal-pics">
-                        <div class="column"><img src="img/birds/skylark/scale.png"></div>
-                        <div class="column">
-                            <div class="gallery">
-                                <div><a href="img/birds/skylark/a.jpg"  title="Photo by Shaun Lee"><img src="img/birds/skylark/-a.jpg" ></a></div>
-                                <div><a href="img/birds/skylark/b.jpg"  title="Walking. Photo by Shaun Lee"><img src="img/birds/skylark/-b.jpg" ></a></div>
-                                <div><img src="img/blank.png"></div>
-                                <div><img src="img/blank.png"></div>
-                            </div>
-                        </div>
-                        <div class="column photo">
-                            <img class="thephoto" src="img/birds/skylark/photo.jpg">
-                            <img class="show" src="img/icon-hide.svg">
-                        </div>
-                    </div>
-                    <p class="desc">3cm in length. Back claw drags when walking.</p>
-                    <p class="species"><span class="likely">LIKELY SPECIES:</span> <a target="_blank" href="http://nzbirdsonline.org.nz/species/eurasian-skylark">Eurasian skylark</a> <a target="_blank" href="http://www.nzbirdsonline.org.nz/species/new-zealand-pipit">Pipit</a> </p>
-                </div>-->
-                <!-- End Animal -->
-                
+                <!-- Populated via JS --> 
             </section><!-- End Animals -->          
  
         </section> <!-- End container -->
