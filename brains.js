@@ -98,10 +98,10 @@ $('nav a[data-id!=""]').click(function() {
         $( '.animal' ).each(function( i ) {
             if ( $ (this).data('id') == cat ) {
                 // $ (this).removeClass('excluded');
-                $ (this).delay(100*i).fadeIn();
+                $ (this).delay(500).fadeIn();
             } else {
                 // $ (this).addClass('excluded');
-                $ (this).delay(100*i).fadeOut();
+                $ (this).delay(100).fadeOut();
             }
         });
     }
