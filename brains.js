@@ -2,7 +2,8 @@ var species = [
     {
         "category": "birds",
         "name":"Oystercatcher",
-        "subname":"Torea, Haematopus", 
+        "subname":"Torea, Haematopus",
+        "folder": "oystercatcher",
         "scale":"scale", 
         "photos":[
             {"name":"a", "title":"Photo by Shaun Lee"},
@@ -20,7 +21,8 @@ var species = [
     {
         "category": "birds",
         "name":"Stilt",
-        "subname":"Himantopus", 
+        "subname":"Himantopus",
+        "folder": "stilt",
         "scale":"scale", 
         "photos":[
             {"name":"a", "title":"Photo by Shaun Lee"},
@@ -38,7 +40,8 @@ var species = [
     {
         "category": "birds",
         "name":"Dotterel",
-        "subname":"Tūturiwhatu, Charadrius Obscurus", 
+        "subname":"Tūturiwhatu, Charadrius Obscurus",
+        "folder": "dotterel",
         "scale":"scale", 
         "photos":[
             {"name":"a", "title":"Photo by Emily Roberts"}
@@ -52,7 +55,8 @@ var species = [
     {
         "category": "birds",
         "name":"Pied Shag",
-        "subname":"Kawau, Phalacrocorax varius", 
+        "subname":"Kawau, Phalacrocorax varius",
+        "folder": "pied-shag",
         "scale":"scale", 
         "photos":[
             {"name":"a", "title":"Photo by Eliane Lagnaz"},
@@ -68,7 +72,8 @@ var species = [
     {
         "category": "birds",
         "name":"Pukeko",
-        "subname":"Australasian swamphen, Porphyrio melanotus", 
+        "subname":"Australasian swamphen, Porphyrio melanotus",
+        "folder": "pukeko",
         "scale":"scale", 
         "photos":[
             {"name":"a", "title":"Left front foot. Photo by Shaun Lee"}
@@ -82,7 +87,8 @@ var species = [
     {
         "category": "mammals",
         "name":"Hedgehog",
-        "subname":"Erinaceus europaeus occidentalis", 
+        "subname":"Erinaceus europaeus occidentalis",
+        "folder": "hedgehog",
         "scale":"scale", 
         "photos":[
             {"name":"a", "title":"Left front foot. Photo by Shaun Lee"},
@@ -92,6 +98,74 @@ var species = [
         "similar":[
             {"link":"http://www.pestdetective.org.nz/culprits/hedgehog/","name":"Hedgehog"}
         ]
+    },
+    {
+        "category": "birds",
+        "name":"Southern black-backed gull",
+        "subname":"Karoro, Kelp gull, Larus dominicanus",
+        "folder": "southern-black-backed-gull",
+        "scale":"scale", 
+        "photos":[
+            {"name":"a", "title":"Photo by Shaun Lee"},
+            {"name":"b", "title":"Photo by Shaun Lee"},
+            {"name":"c", "title":"Photo by Shaun Lee"}
+        ],
+        "photo":"photo",
+        "desc":"7cm in length with webbing on feet noticeable in soft sand.",
+        "similar":[
+            {"link":"http://www.nzbirdsonline.org.nz/species/southern-black-backed-gull","name":"Southern black-backed gull"}
+        ]
+    },
+    {
+        "category": "birds",
+        "name":"Gull",
+        "subname":"Larus, Red-billed gull or Black-billed gull, Tarāpunga or Tarāpuka",
+        "folder": "gull",
+        "scale":"scale", 
+        "photos":[
+            {"name":"a", "title":"Photo by Shaun Lee"},
+            {"name":"b", "title":"Photo by Shaun Lee"},
+            {"name":"c", "title":"Photo by Shaun Lee"},
+            {"name":"d", "title":"Photo by Shaun Lee"}
+        ],
+        "photo":"photo",
+        "desc":"4.5cm in length with webbing visible in soft sand. Smaller prints than black-backed gull.",
+        "similar":[
+            {"link":"http://www.nzbirdsonline.org.nz/species/red-billed-gull","name":"Red-billed gull"},
+            {"link":"http://www.nzbirdsonline.org.nz/species/black-billed-gull","name":"Black-billed gull"}
+        ]
+    },
+    {
+        "category": "mammals",
+        "name":"Wild European Rabbit",
+        "subname":"Rāpeti, Oryctolagus cuniculus",
+        "folder": "rabbit",
+        "scale":"scale", 
+        "photos":[
+            {"name":"a", "title":"All four feet of a small rabbit landing together. Photo by Shaun Lee"},
+        ],
+        "photo":"photo",
+        "desc":"Back feet much longer than front feet. Length of back feet not always obvious in sand if running.",
+        "similar":[
+            {"link":"http://www.pestdetective.org.nz/culprits/rabbit/","name":"Rabbit"}
+        ]
+    },
+    {
+        "category": "birds",
+        "name":"Skylark or Pipit",
+        "subname":"Alauda arvensis or Anthus novaeseelandiae",
+        "folder": "skylark",
+        "scale":"scale", 
+        "photos":[
+            {"name":"a", "title":"Photo by Shaun Lee"},
+            {"name":"b", "title":"Walking. Photo by Shaun Lee"}
+        ],
+        "photo":"photo",
+        "desc":"3cm in length. Back claw drags when walking.",
+        "similar":[
+            {"link":"http://www.nzbirdsonline.org.nz/species/eurasian-skylark","name":"Eurasian Skylark"},
+            {"link":"http://www.nzbirdsonline.org.nz/species/new-zealand-pipit","name":"Pipit"}
+        ]
     }
 ];
 
@@ -99,17 +173,16 @@ $(function() { // Init jQuery
 
 // Build HTML markup for each species in array
 species.forEach(function(item){
-    var aname =  item["name"].toLowerCase().replace(/\s/g , "-");
     var animal = "<div class='animal off'>" +
         "<h1>" + item["name"] + "</h1>" +
         "<h4>" + item["subname"] + "</h4>" +
         "<div class='animal-pics'>" +
-        "<div class='column'><img src='img/" + item["category"] + "/" + aname + "/scale.png'></div>" +
+        "<div class='column'><img src='img/" + item["category"] + "/" + item["folder"] + "/scale.png'></div>" +
         "<div class='column'>" +
         "<div class='gallery'>";
     var count_photos = 0;
     item["photos"].forEach(function(photo){
-        animal = animal + "<div><a href='img/" + item["category"] + "/" + aname + "/" + photo["name"] + ".jpg' title='" + photo["title"]  + "'><img src='img/" + item["category"] + "/" + aname + "/-" + photo["name"] + ".jpg' ></a></div>";
+        animal = animal + "<div><a href='img/" + item["category"] + "/" + item["folder"] + "/" + photo["name"] + ".jpg' title='" + photo["title"]  + "'><img src='img/" + item["category"] + "/" + item["folder"] + "/-" + photo["name"] + ".jpg' ></a></div>";
         count_photos = count_photos + 1;
     });
     for (var i = 4; i > count_photos; i--) {
@@ -119,7 +192,7 @@ species.forEach(function(item){
         "</div>" +
         "</div>" +
         "<div class='column photo'>" +
-        "<img class='thephoto' src='img/" + item["category"] + "/" + aname + "/" + item["photo"] + ".jpg'>" +
+        "<img class='thephoto' src='img/" + item["category"] + "/" + item["folder"] + "/" + item["photo"] + ".jpg'>" +
         "<img class='show' src='img/icon-hide.svg'>" + 
         "</div>" +
         "</div>" +
