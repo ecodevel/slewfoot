@@ -69,7 +69,8 @@ var species = [
         "subname":"Australasian swamphen, Porphyrio melanotus",
         "folder": "pukeko",
         "photos":[
-            {"name":"a", "title":"Left front foot. Photo by Shaun Lee"}
+            {"name":"a", "title":"Photo by Jordi Tablada"},
+            {"name":"b", "title":"Photo by Shaun Lee"}
         ],
         "desc":"? in length.",
         "similar":[
@@ -128,6 +129,7 @@ var species = [
         "folder": "rabbit",
         "photos":[
             {"name":"a", "title":"All four feet of a small rabbit landing together. Photo by Shaun Lee"},
+            {"name":"b", "title":"All four feet of a small rabbit landing together, running fast. Photo by Shaun Lee"},
         ],
         "desc":"Back feet much longer than front feet. Length of back feet not always obvious in sand if running.",
         "similar":[
