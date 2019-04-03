@@ -178,6 +178,7 @@ nav a:last-child img {
 .species a:link, .species a:visited, .species a:hover, .species a:active {
     display: inline-block;
     padding: .2rem .8rem;
+    margin: 0 0 .2rem 0;
     background: rgb(225,175,0);
     border: none;
     border-radius: 3px;
