@@ -4,10 +4,11 @@ $(function() { // Init jQuery
 species.forEach(function(item){
     var isExcluded = (item["category"] != "birds"); // Initially hidden if not a bird
     var classes = "animal off";
+    var animal = "<div data-id='" + item["category"] + "' class='" + classes + "'";
     if (isExcluded === true) {
-        classes = classes + " excluded";
+        animal = animal + " style='display:none;'";
     }
-    var animal = "<div data-id='" + item["category"] + "' class='" + classes + "'>" +
+    animal = animal + ">" +
         "<h1>" + item["name"] + "</h1>" +
         "<h4>" + item["subname"] + "</h4>" +
         "<div class='animal-pics'>" +
