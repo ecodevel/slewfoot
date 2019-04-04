@@ -166,5 +166,24 @@ var species = [
         "similar":[
             {"link":"https://inaturalist.nz/taxa/408947-Pericoptus-truncatus","name":"Large Sand Scarab"}
         ]
+    },
+    {
+        "category": "birds",
+        "name":"Kiwi",
+        "subname":"Apterygidae, Apteryx",
+        "folder": "kiwi",
+        "photos":[
+            {"name":"a", "title":"Photo by Jordi Tablada"},
+            {"name":"b", "title":"Photo by Jordi Tablada"},
+            {"name":"c", "title":"Photo by Jordi Tablada"},
+        ],
+        "desc":"11cm long, no fourth (hind) toe unless very deep mud. Often associated with probe holes.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/north-island-brown-kiwi","name":"North Island brown kiwi"},
+            {"link":"http://nzbirdsonline.org.nz/species/okarito-brown-kiwi","name":"Okarito brown kiwi"},
+            {"link":"http://nzbirdsonline.org.nz/species/southern-brown-kiwi","name":"Southern brown kiwi"},
+            {"link":"http://nzbirdsonline.org.nz/species/little-spotted-kiwi","name":"Little spotted kiwi"},
+            {"link":"http://nzbirdsonline.org.nz/species/great-spotted-kiwi","name":"Great spotted kiwi"}
+        ]
     }
 ];
