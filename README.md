@@ -1,0 +1,1 @@
+[![Codeship Status for ecodevel/slewfoot](https://app.codeship.com/projects/e619fce0-3951-0137-5092-0ea8998f87bd/status?branch=master)](https://app.codeship.com/projects/333958)
