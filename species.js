@@ -70,7 +70,8 @@ var species = [
         "folder": "pukeko",
         "photos":[
             {"name":"a", "title":"Photo by Jordi Tablada"},
-            {"name":"b", "title":"Photo by Shaun Lee"}
+            {"name":"b", "title":"Photo by Shaun Lee"},
+            {"name":"c", "title":"Photo by Jordi Tablada"}
         ],
         "desc":"? in length.",
         "similar":[
