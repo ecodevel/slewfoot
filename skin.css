@@ -248,8 +248,8 @@ nav a:last-child img {
 
 .animal-pics .photo .show {
     position: absolute;
-    top: -.5px;
-    right: -.5px;
+    top: -.6px;
+    right: -.6px;
     width: 100%;
     height: 100%;
     cursor: pointer;
