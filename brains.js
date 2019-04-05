@@ -17,7 +17,7 @@ species.forEach(function(item){
         "<div class='gallery'>";
     var count_photos = 0;
     item["photos"].forEach(function(photo){
-        animal = animal + "<div><a href='img/" + item["category"] + "/" + item["folder"] + "/" + photo["name"] + ".jpg' title='" + photo["title"]  + "'><img src='img/" + item["category"] + "/" + item["folder"] + "/-" + photo["name"] + ".jpg' ></a></div>";
+        animal = animal + "<div><a data-fancybox='" + item["folder"] + "' href='img/" + item["category"] + "/" + item["folder"] + "/" + photo["name"] + ".jpg' data-caption='" + photo["title"]  + "'><img src='img/" + item["category"] + "/" + item["folder"] + "/-" + photo["name"] + ".jpg' ></a></div>";
         count_photos = count_photos + 1;
     });
     for (var i = 4; i > count_photos; i--) {
@@ -135,8 +135,13 @@ $('.show').hover(function() {
     
 // Build Galleries
 $('.gallery').each(function() {
-    // From https://github.com/dbrekalo/simpleLightbox
-    $( this ).find('a').simpleLightbox();
+    // From https://github.com/fancyapps/fancybox
+    $( this ).find('a').fancybox({
+        buttons: [
+            "close"
+        ],
+        infobar: false
+    });
 });
 
 // Show all button
