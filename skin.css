@@ -60,7 +60,7 @@ nav {
     text-align: center;
 }
 
-nav a:link, nav a:visited, nav a:hover, nav a:active {
+nav a:link, nav a:visited, nav a:active {
     width: 100%;
     color: rgb(27,17,7);
     padding: 1rem;
@@ -72,11 +72,21 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
 }
 
 nav a:hover {
+    width: 100%;
+    color: rgb(27,17,7);
+    padding: 1rem;
+    font-size: 1.6rem;
+    margin: .2rem;
+    text-transform: uppercase;
     background-color: rgba(245,245,243,0.9);
     border: none;
 }
 
-nav .selected:link, nav .selected:visited, nav .selected:hover, nav .selected:active {
+nav .selected:link, nav .selected:visited, nav .selected:active {
+    background-color: #fff;
+}
+
+nav .selected:hover {
     background-color: #fff;
 }
 
@@ -94,7 +104,13 @@ nav a:last-child img {
         justify-content: flex-start;
         border-bottom: 1px solid rgb(245,245,243);
     }
-    nav a:link, nav a:visited, nav a:hover, nav a:active {
+    nav a:link, nav a:visited, nav a:active {
+        margin: .2rem .2rem 0 .2rem;
+        border-radius: 6px 6px 0 0;
+        flex-basis: 10rem;
+        align-self: flex-end;
+    }
+    nav a:hover {
         margin: .2rem .2rem 0 .2rem;
         border-radius: 6px 6px 0 0;
         flex-basis: 10rem;
@@ -186,6 +202,12 @@ nav a:last-child img {
 }
 
 .species a:hover {
+    display: inline-block;
+    padding: .2rem .8rem;
+    margin: 0 0 .2rem 0;
+    border: none;
+    border-radius: 3px;
+    color: rgb(27,17,7);
     background: #fff;
 }
 
