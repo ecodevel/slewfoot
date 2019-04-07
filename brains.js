@@ -1,5 +1,12 @@
 $(function() { // Init jQuery
 
+// Used to know if device has touch events
+function hasTouch() {
+    return 'ontouchstart' in document.documentElement
+        || navigator.maxTouchPoints > 0
+        || navigator.msMaxTouchPoints > 0;
+}
+
 // Build HTML markup for each species in array
 species.forEach(function(item){
     var isExcluded = (item["category"] != "birds"); // Initially hidden if not a bird
@@ -17,7 +24,7 @@ species.forEach(function(item){
         "<div class='gallery'>";
     var count_photos = 0;
     item["photos"].forEach(function(photo){
-        animal = animal + "<div><a data-fancybox='" + item["folder"] + "' href='img/" + item["category"] + "/" + item["folder"] + "/" + photo["name"] + ".jpg' data-caption='" + photo["title"]  + "'><img src='img/" + item["category"] + "/" + item["folder"] + "/-" + photo["name"] + ".jpg' ></a></div>";
+        animal = animal + "<div><a data-type='image' data-fancybox='" + item["folder"] + "' href='img/" + item["category"] + "/" + item["folder"] + "/" + photo["name"] + ".jpg' data-caption='" + photo["title"]  + "'><img src='img/" + item["category"] + "/" + item["folder"] + "/-" + photo["name"] + ".jpg' ></a></div>";
         count_photos = count_photos + 1;
     });
     for (var i = 4; i > count_photos; i--) {
@@ -42,6 +49,24 @@ species.forEach(function(item){
     animal = animal + "</div>";
     $('section.animals').append(animal);
 });
+
+// Remove all :hover stylesheets if mobile
+if (hasTouch()) { 
+    try { // prevent exception on browsers not supporting DOM styleSheets properly
+        for (var si in document.styleSheets) {
+            var styleSheet = document.styleSheets[si];
+            if (!styleSheet.rules) continue;
+
+            for (var ri = styleSheet.rules.length - 1; ri >= 0; ri--) {
+                if (!styleSheet.rules[ri].selectorText) continue;
+
+                if (styleSheet.rules[ri].selectorText.match(':hover')) {
+                    styleSheet.deleteRule(ri);
+                }
+            }
+        }
+    } catch (ex) {}
+}
 
 // Turn species on and off (show/hide)
 function turnOn(el, or, isOn) {
@@ -140,7 +165,8 @@ $('.gallery').each(function() {
         buttons: [
             "close"
         ],
-        infobar: false
+        infobar: false,
+        hash: false
     });
 });
 
@@ -150,11 +176,11 @@ $('nav a:last-child').click(function() {
     if ($ (this).hasClass( 'collapsed' )) {
         $ (this).children('span').text('Hide all');
         showAll = true;
-        $ (this).removeClass( 'collapsed' )
+        $ (this).removeClass( 'collapsed' );
     }
     else {
         $ (this).children('span').text('Show all');
-        $ (this).addClass( 'collapsed' )
+        $ (this).addClass( 'collapsed' );
     }
     $( '.show' ).each(function() {
         showAndHide(this, showAll);
