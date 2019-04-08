@@ -1,5 +1,5 @@
 /* SITE */
-    Title: NZTracker.org
+    Title: NZ Tracker.org
     Language: English
 
 /* TEAM */
@@ -9,6 +9,6 @@
     Twitter: @vegestoc
 
     Development: Jordi Tablada
-    Website: http://jordi.nz/
+    Website: https://jordi.nz/
     Contact: hello [at] jordi.nz
     Twitter: @jordi__nz
