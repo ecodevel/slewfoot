@@ -70,10 +70,11 @@ var species = [
         "folder": "pukeko",
         "photos":[
             {"name":"a", "title":"Photo by Jordi Tablada"},
-            {"name":"b", "title":"Photo by Shaun Lee"},
-            {"name":"c", "title":"Photo by Jordi Tablada"}
+            {"name":"b", "title":"Photo by Jordi Tablada"},
+            {"name":"c", "title":"Photo by Shaun Lee"},
+            {"name":"d", "title":"Photo by Jordi Tablada"},
         ],
-        "desc":"? in length.",
+        "desc":"About 13-15cm in length depending on the size of the specimen.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/pukeko","name":"Pukeko"}
         ]
