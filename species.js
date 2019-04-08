@@ -99,7 +99,8 @@ var species = [
         "photos":[
             {"name":"a", "title":"Photo by Shaun Lee"},
             {"name":"b", "title":"Photo by Shaun Lee"},
-            {"name":"c", "title":"Photo by Shaun Lee"}
+            {"name":"c", "title":"Photo by Shaun Lee"},
+            {"name":"d", "title":"Photo by Jordi Tablada"}
         ],
         "desc":"7cm in length with webbing on feet noticeable in soft sand.",
         "similar":[
