@@ -124,6 +124,21 @@ var species = [
         ]
     },
     {
+        "category": "birds",
+        "name":"Caspian Tern",
+        "subname":"Taranui, Hydroprogne caspia",
+        "folder": "caspian-tern",
+        "photos":[
+            {"name":"a", "title":"Photo by Jordi Tablada"},
+            {"name":"b", "title":"Photo by Jordi Tablada"},
+            {"name":"c", "title":"Photo by Emily Roberts"}
+        ],
+        "desc":"About 4-6cm in length with webbing visible in soft sand.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/caspian-tern","name":"Caspian Tern"}
+        ]
+    },
+    {
         "category": "mammals",
         "name":"Wild European Rabbit",
         "subname":"Rāpeti, Oryctolagus cuniculus",
