@@ -39,7 +39,10 @@ var species = [
         "subname":"Tūturiwhatu, Charadrius Obscurus",
         "folder": "dotterel",
         "photos":[
-            {"name":"a", "title":"Photo by Emily Roberts"}
+            {"name":"a", "title":"Photo by Emily Roberts"},
+            {"name":"b", "title":"Photo by Shaun Lee"},
+            {"name":"c", "title":"Photo by Shaun Lee"},
+            {"name":"d", "title":"Photo by Shaun Lee"}
         ],
         
         "desc":"3cm in length with asymmetric toes. Dotterels walk on their toes so heel not often visible.",
@@ -74,9 +77,25 @@ var species = [
             {"name":"c", "title":"Photo by Shaun Lee"},
             {"name":"d", "title":"Photo by Jordi Tablada"},
         ],
-        "desc":"About 13-15cm in length depending on the size of the specimen.",
+        "desc":"13-15cm in length depending on the size of the bird.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/pukeko","name":"Pukeko"}
+        ]
+    },
+    {
+        "category": "birds",
+        "name":"Banded rail",
+        "subname":"Mioweka, Gallirallus philippensis",
+        "folder": "banded-rail",
+        "photos":[
+            {"name":"a", "title":"Photo by Shaun Lee"},
+            {"name":"b", "title":"Photo by Shaun Lee"},
+            {"name":"c", "title":"Photo by Shaun Lee"},
+            {"name":"d", "title":"Photo by Shaun Lee"},
+        ],
+        "desc":"4-5cm in length, weight evenly distrubuted, longer middle toe than a stilt.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/banded-rail","name":"Banded rail"}
         ]
     },
     {
@@ -133,9 +152,10 @@ var species = [
         "photos":[
             {"name":"a", "title":"Photo by Jordi Tablada"},
             {"name":"b", "title":"Photo by Jordi Tablada"},
-            {"name":"c", "title":"Photo by Emily Roberts"}
+            {"name":"c", "title":"Photo by Emily Roberts"},
+            {"name":"d", "title":"Photo by Shaun Lee"}
         ],
-        "desc":"About 4-6cm in length with webbing visible in soft sand.",
+        "desc":"5cm in length with webbing usyually visible, narrower and more asymetrical than a gull print.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/caspian-tern","name":"Caspian Tern"}
         ]
