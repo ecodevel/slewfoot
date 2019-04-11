@@ -164,6 +164,7 @@ nav a:last-child img {
     .animal {
         box-sizing: border-box;
         flex-basis: 50%;
+        width: 50%;
     }
 }
 
