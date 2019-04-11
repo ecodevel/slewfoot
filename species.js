@@ -5,10 +5,10 @@ var species = [
         "subname":"Torea, Haematopus",
         "folder": "oystercatcher",
         "photos":[
-            {"name":"a", "title":"Photo by Shaun Lee"},
-            {"name":"b", "title":"Photo by Emily Harris"},
-            {"name":"c", "title":"Photo by Shaun Lee"},
-            {"name":"d", "title":"Photo by Shaun Lee"}
+            {"name":"a", "title":"South Island Pied Oystercatcher, Photo by Shaun Lee"},
+            {"name":"b", "title":"South Island Pied Oystercatcher, Photo by Shaun Lee"},
+            {"name":"c", "title":"Variable Oystercatcher, Photo by Shaun Lee"},
+            {"name":"d", "title":"Variable Oystercatcher, Photo by Shaun Lee"}
         ],
         "desc":"5cm in length. Oystercatchers walk on their toes so heel not always visible. Toes more chunky than Spur-winged plover.",
         "similar":[
@@ -80,6 +80,21 @@ var species = [
         "desc":"13-15cm in length depending on the size of the bird.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/pukeko","name":"Pukeko"}
+        ]
+    },
+    {
+        "category": "birds",
+        "name":"Takahe",
+        "subname":"Notornis, Porphyrio hochstetteri",
+        "folder": "takahe",
+        "photos":[
+            {"name":"a", "title":"Photo by Shaun Lee"},
+            {"name":"b", "title":"Photo by Shaun Lee"},
+            {"name":"c", "title":"Photo by Shaun Lee"}
+        ],
+        "desc":"15cm in length, we need more photos to compare to pukeko.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/south-island-takahe","name":"South Island takahe"}
         ]
     },
     {
@@ -203,6 +218,32 @@ var species = [
         "desc":"Leaves distinctive trails at night. Can be found hidding in the sand during the day at the end of their tracks.",
         "similar":[
             {"link":"https://inaturalist.nz/taxa/408947-Pericoptus-truncatus","name":"Large Sand Scarab"}
+        ]
+    },
+    {
+        "category": "other",
+        "name":"Skink",
+        "subname":"Oligosoma, Mokomoko",
+        "folder": "skink",
+        "photos":[
+            {"name":"a", "title":"Egg laying skink, Photo by Shaun Lee"},
+            {"name":"b", "title":"Egg laying skink, Photo by Shaun Lee"}
+        ],
+        "desc":"Most species are 3-6mm in length. Each species has distinctive markings.",
+        "similar":[
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/oligosoma-alani","name":"Robust skink"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/oligosoma-grande","name":"Grand skink"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/oligosoma-homalonotum","name":"Chevron skink"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/oligosoma-macgregori","name":"McGregor's skink"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/oligosoma-oliveri","name":"Marbled skink"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/oligosoma-ornatum","name":"Ornate skink"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/oligosoma-otagense","name":"Otago skink"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/oligosoma-pikitanga","name":"Sinbad skink"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/oligosoma-smithi","name":"Shore skink"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/oligosoma-suteri","name":"Egg laying skink"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/oligosoma-whitakeri","name":"Whitaker's skink"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/oligososma-aeneum","name":"Copper skink"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/non-native/lampropholis-delicata","name":"Plague skink"}
         ]
     },
     {
