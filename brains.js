@@ -169,9 +169,8 @@ $('.gallery').each(function() {
         infobar: false,
         hash: false,
         mobile: { // close when tap outside image
-            clickContent: function(current, event) {
-              return current.type === "image" ? "toggleControls" : "close";
-            },
+            clickSlide: "close",
+            clickOutside: "close",
         }
     });
 });
