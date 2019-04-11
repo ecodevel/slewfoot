@@ -162,11 +162,17 @@ $('.show').hover(function() {
 $('.gallery').each(function() {
     // From https://github.com/fancyapps/fancybox
     $( this ).find('a').fancybox({
+        loop: true,
         buttons: [
             "close"
         ],
         infobar: false,
-        hash: false
+        hash: false,
+        mobile: { // close when tap outside image
+            clickContent: function(current, event) {
+              return current.type === "image" ? "toggleControls" : "close";
+            },
+        }
     });
 });
 
