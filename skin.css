@@ -44,10 +44,17 @@ a:hover {
 /* Header */
 .logo {
     text-indent: -9999px;
-    width: 320px;
-    height: 80px;
+    width: 280px;
+    height: 70px;
     margin: 2rem auto;
     background: url("img/logo.svg") no-repeat 50% 50% / cover;
+}
+
+@media only screen and (min-width: 1280px) {
+   .logo {
+        width: 360px;
+        height: 80px;
+    } 
 }
 
 /* Menu */
@@ -98,6 +105,12 @@ nav a:last-child img {
     margin: -0.2rem .2rem 0 0;
 }
 
+@media only screen and (max-width: 568px) {
+    nav a:last-child {
+        margin-top: 2rem;
+    }
+}
+
 @media only screen and (min-width: 568px) {
     nav {
         flex-direction: row;
@@ -121,9 +134,17 @@ nav a:last-child img {
         position: absolute;
         top: 2rem;
         right: 2rem;
-        width: 12rem;
+        width: 11rem;
+        padding: 1rem .5rem;
         border-radius: 6px;
     }
+}
+
+@media only screen and (min-width: 1280px) {
+    nav a:last-child {
+        width: 12rem;
+        padding: 1rem;
+    } 
 }
 
 /* ANIMAL */
