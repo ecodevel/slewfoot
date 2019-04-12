@@ -60,6 +60,7 @@ var species = [
             {"name":"a", "title":"Photo by Shaun Lee"},
             {"name":"b", "title":"Photo by Shaun Lee"},
             {"name":"c", "title":"Photo by Shaun Lee"},
+            {"name":"d", "title":"Photo by Jordi Tablada"}
         ],
         "desc":"11cm in length? Needs checking. More weight on toes, heal not always visible.",
         "similar":[
@@ -291,11 +292,30 @@ var species = [
     },
     {
         "category": "mammals",
+        "name":"Possum",
+        "subname":"Trichosurus vulpecula",
+        "folder": "possum",
+        "photos":[
+            {"name":"a", "title":"Photo by Emily Roberts"},
+            {"name":"b", "title":"Photo by Emily Roberts"},
+            {"name":"c", "title":"Photo by Emily Roberts"},
+            {"name":"d", "title":"Photo by Emily Roberts"},
+        ],
+        "desc":"Five-toed fore-feet, different hind-feet, claw marks.",
+        "similar":[
+            {"link":"http://www.pestdetective.org.nz/culprits/possum/","name":"Possum"}
+        ]
+    },
+    {
+        "category": "mammals",
         "name":"Hedgehog",
         "subname":"Erinaceus europaeus occidentalis",
         "folder": "hedgehog",
         "photos":[
-            {"name":"a", "title":"Left front foot. Photo by Shaun Lee"}
+            {"name":"a", "title":"Left front foot. Photo by Shaun Lee"},
+            {"name":"b", "title":"Photo by Emily Roberts"},
+            {"name":"c", "title":"Photo by Emily Roberts"},
+            {"name":"d", "title":"Photo by Emily Roberts"}
         ],
         "desc":"Hedgehog toe pads are larger and closer to the central pad compared with rat or ferret prints. - http://www.landcareresearch.co.nz",
         "similar":[
