@@ -51,6 +51,22 @@ var species = [
     // Darters
     // Frigatebirds
     // Herons, Egrets and Bitterns
+   {
+        "category": "birds",
+        "name":"Heron",
+        "subname":"Egretta, Matuku moana",
+        "folder": "white-faced-heron",
+        "photos":[
+            {"name":"a", "title":"Photo by Shaun Lee"},
+            {"name":"b", "title":"Photo by Shaun Lee"},
+            {"name":"c", "title":"Photo by Shaun Lee"},
+        ],
+        "desc":"11cm in length? Needs checking. More weight on toes, heal not always visible.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/white-faced-heron","name":"White-faced heron"},
+            {"link":"http://nzbirdsonline.org.nz/species/reef-heron","name":"Reef heron"}
+        ]
+    },
     // Ibises and Spoonbills
     // Raptors
     // Rails, Gallinules and Coots
@@ -279,11 +295,25 @@ var species = [
         "subname":"Erinaceus europaeus occidentalis",
         "folder": "hedgehog",
         "photos":[
-            {"name":"a", "title":"Left front foot. Photo by Shaun Lee"},
+            {"name":"a", "title":"Left front foot. Photo by Shaun Lee"}
         ],
         "desc":"Hedgehog toe pads are larger and closer to the central pad compared with rat or ferret prints. - http://www.landcareresearch.co.nz",
         "similar":[
             {"link":"http://www.pestdetective.org.nz/culprits/hedgehog/","name":"Hedgehog"}
+        ]
+    },
+    {
+        "category": "mammals",
+        "name":"Mouse",
+        "subname":"Mus musculus",
+        "folder": "mouse",
+        "photos":[
+            {"name":"a", "title":"Photo by Shaun Lee"},
+            {"name":"b", "title":"Photo by Shaun Lee"}
+        ],
+        "desc":"Four toes on forefoot, five on hindfoot. 8mm wide can look like scattered dots.",
+        "similar":[
+            {"link":"http://www.pestdetective.org.nz/culprits/mouse/","name":"Mouse"}
         ]
     },
     
@@ -311,7 +341,8 @@ var species = [
         "folder": "skink",
         "photos":[
             {"name":"a", "title":"Egg laying skink, Photo by Shaun Lee"},
-            {"name":"b", "title":"Egg laying skink, Photo by Shaun Lee"}
+            {"name":"b", "title":"Egg laying skink, Photo by Shaun Lee"},
+            {"name":"c", "title":"Skink, Photo by Shaun Lee"}
         ],
         "desc":"Most species are 3-6mm in length. Each species has distinctive markings.",
         "similar":[
