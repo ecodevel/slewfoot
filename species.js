@@ -25,6 +25,22 @@ var species = [
     // Waterfowl
     // Grebes
     // Penguins
+    {
+        "category": "birds",
+        "name":"Little penguin",
+        "subname":"kororā, Eudyptula minor",
+        "folder": "little-penguin",
+        "photos":[
+            {"name":"a", "title":"Photo by Emily Roberts"},
+            {"name":"b", "title":"Photo by Emily Roberts"},
+            {"name":"c", "title":"Photo by Emily Roberts"},
+            {"name":"d", "title":"Photo by Emily Roberts"},
+        ],
+        "desc":"5.5cm in length with chunky toes and visible heel. Note narrow angle of toes compared to the oystercatcher. Angle of all toes always less than 75&deg;.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/little-penguin","name":"Little penguin"}
+        ]
+    },
     // Albatrossses and Mollymawks
     // Fullmars, Prions, Petrels and shearwaters
     // Storm ptrels
@@ -284,10 +300,12 @@ var species = [
         "photos":[
             {"name":"a", "title":"All four feet of a small rabbit landing together. Photo by Shaun Lee"},
             {"name":"b", "title":"All four feet of a small rabbit landing together, running fast. Photo by Shaun Lee"},
+            {"name":"c", "title":"Larger back feet. Photo by Emily Roberts"}
         ],
         "desc":"Back feet much longer than front feet. Length of back feet not always obvious in sand if running.",
         "similar":[
-            {"link":"http://www.pestdetective.org.nz/culprits/rabbit/","name":"Rabbit"}
+            {"link":"http://www.pestdetective.org.nz/culprits/rabbit/","name":"Rabbit"},
+            {"link":"http://www.pestdetective.org.nz/culprits/new-culprit-page-3/","name":"Juvenile brown hare"}
         ]
     },
     {
