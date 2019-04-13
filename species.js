@@ -34,7 +34,7 @@ var species = [
             {"name":"a", "title":"Photo by Emily Roberts"},
             {"name":"b", "title":"Photo by Emily Roberts"},
             {"name":"c", "title":"Photo by Emily Roberts"},
-            {"name":"d", "title":"Photo by Emily Roberts"},
+            {"name":"d", "title":"Photo by Jordi Tablada"},
         ],
         "desc":"5.5cm in length with chunky toes and visible heel. Note narrow angle of toes compared to the oystercatcher. Angle of all toes always less than 75&deg;.",
         "similar":[
