@@ -252,9 +252,25 @@ var species = [
             {"name":"c", "title":"Photo by Emily Roberts"},
             {"name":"d", "title":"Photo by Shaun Lee"}
         ],
-        "desc":"5cm in length with webbing usyually visible, narrower and more asymetrical than a gull print.",
+        "desc":"5cm in length with webbing usually visible, narrower and more asymetrical than a gull print.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/caspian-tern","name":"Caspian Tern"}
+        ]
+    },
+    {
+        "category": "birds",
+        "name":"White-fronted Tern",
+        "subname":"Tara, Sterna striata",
+        "folder": "white-fronted-tern",
+        "photos":[
+            {"name":"a", "title":"Photo by Emily Roberts"},
+            {"name":"b", "title":"Photo by Emily Roberts"},
+            {"name":"c", "title":"Photo by Emily Roberts"},
+            {"name":"d", "title":"Photo by Emily Roberts"}
+        ],
+        "desc":"2cm in length with webbing visible and middle toe elongated. Similar to the Caspian Tern but smaller.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/white-fronted-tern","name":"White-fronted Tern"}
         ]
     },
     // Pidgeons and doves
