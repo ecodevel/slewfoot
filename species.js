@@ -26,7 +26,7 @@ var species = [
     {
         "category": "birds",
         "name":"Mallard",
-        "subname":"kororā, Anas platyrhynchos",
+        "subname":"Anas platyrhynchos",
         "folder": "mallard",
         "photos":[
             {"name":"a", "title":"Photo by Jordi Tablada"},
