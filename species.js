@@ -23,6 +23,21 @@ var species = [
     },
     // Gamebirds
     // Waterfowl
+    {
+        "category": "birds",
+        "name":"Mallard",
+        "subname":"kororā, Anas platyrhynchos",
+        "folder": "mallard",
+        "photos":[
+            {"name":"a", "title":"Photo by Jordi Tablada"},
+            {"name":"b", "title":"Photo by Jordi Tablada"},
+        ],
+        "desc":"6.5cm in length with webbing often visible.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/mallard","name":"Mallard"},
+            {"link":"https://inaturalist.nz/taxa/410743-Anas-superciliosa-%C3%97-platyrhynchos","name":"Grey Duck × Mallard Hybrid"},
+        ]
+    },
     // Grebes
     // Penguins
     {
