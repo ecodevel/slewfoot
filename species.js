@@ -96,7 +96,8 @@ var species = [
         "desc":"11cm in length? Needs checking. More weight on toes, heal not always visible.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/white-faced-heron","name":"White-faced heron"},
-            {"link":"http://nzbirdsonline.org.nz/species/reef-heron","name":"Reef heron"}
+            {"link":"http://nzbirdsonline.org.nz/species/reef-heron","name":"Reef heron"},
+            {"link":"http://nzbirdsonline.org.nz/species/white-heron","name":"White heron"}
         ]
     },
     // Ibises and Spoonbills
