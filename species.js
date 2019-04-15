@@ -32,7 +32,7 @@ var species = [
             {"name":"a", "title":"Photo by Jordi Tablada"},
             {"name":"b", "title":"Photo by Jordi Tablada"},
         ],
-        "desc":"6.5cm in length with webbing often visible.",
+        "desc":"6.5cm in length with webbing often visible. Shorter steps than a Southern Black-backed gull.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/mallard","name":"Mallard"},
             {"link":"https://inaturalist.nz/taxa/410743-Anas-superciliosa-%C3%97-platyrhynchos","name":"Grey Duck × Mallard Hybrid"},
