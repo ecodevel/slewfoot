@@ -341,6 +341,22 @@ var species = [
     },
     {
         "category": "mammals",
+        "name":"Cat",
+        "subname":"Poti, Felis catus",
+        "folder": "cat",
+        "photos":[
+            {"name":"a", "title":"Photo by Emily Roberts"},
+            {"name":"b", "title":"Photo by Emily Roberts"},
+            {"name":"c", "title":"Photo by Emily Roberts"},
+            {"name":"d", "title":"Photo by Emily Roberts"}
+        ],
+        "desc":"Heart-shaped central pad and four toe pads with retractable claws.",
+        "similar":[
+            {"link":"http://www.pestdetective.org.nz/culprits/cat/","name":"Cat"}
+        ]
+    },
+    {
+        "category": "mammals",
         "name":"Possum",
         "subname":"Trichosurus vulpecula",
         "folder": "possum",
