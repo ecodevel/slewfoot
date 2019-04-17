@@ -358,6 +358,22 @@ var species = [
     },
     {
         "category": "mammals",
+        "name":"Dog",
+        "subname":"Kuri, Canis lupus familiaris",
+        "folder": "dog",
+        "photos":[
+            {"name":"a", "title":"Photo by Emily Roberts"},
+            {"name":"b", "title":"Photo by Emily Roberts"},
+            {"name":"c", "title":"Photo by Emily Roberts"},
+            {"name":"d", "title":"Photo by Emily Roberts"}
+        ],
+        "desc":"Large pads and claws visible. Variable in length.",
+        "similar":[
+            {"link":"https://www.kiwisforkiwi.org/resources/dogs-cats/","name":"Dog"}
+        ]
+    },
+    {
+        "category": "mammals",
         "name":"Possum",
         "subname":"Trichosurus vulpecula",
         "folder": "possum",
