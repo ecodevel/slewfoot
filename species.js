@@ -438,7 +438,8 @@ var species = [
         "subname":"Koati, Capra hircus",
         "folder": "goat",
         "photos":[
-            {"name":"a", "title":"Photo by Emily Roberts"}
+            {"name":"a", "title":"Photo by Emily Roberts"},
+            {"name":"b", "title":"Photo by Jordi Tablada"}
         ],
         "desc":"Cleaved hooves with pointed, slightly in-curved tips – Pest Detective",
         "similar":[
