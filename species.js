@@ -205,6 +205,36 @@ var species = [
             {"link":"http://nzbirdsonline.org.nz/species/new-zealand-dotterel","name":"New Zealand Dotterel"}
         ]
     },
+    {
+        "category": "birds",
+        "name":"Banded dotterel",
+        "subname":"Tūturiwhatu, Charadrius bicinctus",
+        "folder": "banded-dotterel",
+        "photos":[
+            {"name":"a", "title":"Photo by Emily Roberts"},
+            {"name":"b", "title":"Photo by Emily Roberts"}
+        ],
+        
+        "desc":"2cm in length with asymmetric toes. Banded dotterels walk on their toes so heel not often visible.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/banded-dotterel","name":"Banded dotterel"}
+        ]
+    },
+    {
+        "category": "birds",
+        "name":"Spur-winged plover",
+        "subname":"Masked lapwing, Vanellus miles",
+        "folder": "spur-winged-plover",
+        "photos":[
+            {"name":"a", "title":"Photo by Emily Roberts"},
+            {"name":"b", "title":"Photo by Emily Roberts"}
+        ],
+        
+        "desc":"4cm in length with asymmetric toes. Toes slightly slimmer than oystercatcher. Walk on their toes so heel not always visible.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/spur-winged-plover","name":"Spur-winged plover"}
+        ]
+    },
     // Pratincoles and Coursers
     // Skuas
     // Gulls
@@ -332,7 +362,8 @@ var species = [
         "photos":[
             {"name":"a", "title":"All four feet of a small rabbit landing together. Photo by Shaun Lee"},
             {"name":"b", "title":"All four feet of a small rabbit landing together, running fast. Photo by Shaun Lee"},
-            {"name":"c", "title":"Larger back feet. Photo by Emily Roberts"}
+            {"name":"c", "title":"Larger back feet. Photo by Emily Roberts"},
+            {"name":"d", "title":"Photo by Emily Roberts"}
         ],
         "desc":"Back feet much longer than front feet. Length of back feet not always obvious in sand if running.",
         "similar":[
@@ -420,6 +451,20 @@ var species = [
     },
     {
         "category": "mammals",
+        "name":"Ship rat",
+        "subname":"Rattus rattus",
+        "folder": "ship-rat",
+        "photos":[
+            {"name":"a", "title":"Photo by Shaun Lee"},
+            {"name":"b", "title":"Photo by Emily Roberts"}
+        ],
+        "desc":"Four toes on forefoot, five on hindfoot. 1-2cm wide.",
+        "similar":[
+            {"link":"http://www.pestdetective.org.nz/culprits/ship-rat/","name":"Ship rat"}
+        ]
+    },
+    {
+        "category": "mammals",
         "name":"Stoat",
         "subname":"Mustela erminea",
         "folder": "stoat",
@@ -453,7 +498,7 @@ var species = [
         "subname":"Pericoptus truncatus, Ngungutawa",
         "folder": "large-sand-scarab",
         "photos":[
-            {"name":"a", "title":"Photo by Shaun Lee"},
+            {"name":"a", "title":"Photo by Emily Roberts"},
             {"name":"b", "title":"Photo by Shaun Lee"},
             {"name":"c", "title":"Photo by Shaun Lee"},
             {"name":"d", "title":"Photo by Shaun Lee"}
