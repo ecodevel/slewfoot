@@ -418,6 +418,19 @@ var species = [
             {"link":"http://www.pestdetective.org.nz/culprits/mouse/","name":"Mouse"}
         ]
     },
+    {
+        "category": "mammals",
+        "name":"Goat",
+        "subname":"Koati, Capra hircus",
+        "folder": "goat",
+        "photos":[
+            {"name":"a", "title":"Photo by Emily Roberts"}
+        ],
+        "desc":"Cleaved hooves with pointed, slightly in-curved tips – Pest Detective",
+        "similar":[
+            {"link":"http://www.pestdetective.org.nz/culprits/goat/","name":"Goat"}
+        ]
+    },
     
     // Other
     {
