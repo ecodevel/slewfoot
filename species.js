@@ -420,6 +420,20 @@ var species = [
     },
     {
         "category": "mammals",
+        "name":"Stoat",
+        "subname":"Mustela erminea",
+        "folder": "stoat",
+        "photos":[
+            {"name":"a", "title":"Photo by Emily Roberts"},
+            {"name":"b", "title":"Photo by Emily Roberts"}
+        ],
+        "desc":"Five toes each foot. Claws visible.",
+        "similar":[
+            {"link":"http://www.pestdetective.org.nz/culprits/stoat/","name":"Stoat"}
+        ]
+    },
+    {
+        "category": "mammals",
         "name":"Goat",
         "subname":"Koati, Capra hircus",
         "folder": "goat",
