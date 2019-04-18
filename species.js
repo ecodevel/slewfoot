@@ -19,7 +19,8 @@ var species = [
             {"link":"http://nzbirdsonline.org.nz/species/southern-brown-kiwi","name":"Southern brown kiwi"},
             {"link":"http://nzbirdsonline.org.nz/species/little-spotted-kiwi","name":"Little spotted kiwi"},
             {"link":"http://nzbirdsonline.org.nz/species/great-spotted-kiwi","name":"Great spotted kiwi"}
-        ]
+        ],
+        "inatlink": null
     },
     // Gamebirds
     // Waterfowl
@@ -36,7 +37,8 @@ var species = [
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/mallard","name":"Mallard"},
             {"link":"https://inaturalist.nz/taxa/410743-Anas-superciliosa-%C3%97-platyrhynchos","name":"Grey Duck × Mallard Hybrid"},
-        ]
+        ],
+        "inatlink": null
     },
     // Grebes
     // Penguins
@@ -54,7 +56,8 @@ var species = [
         "desc":"5.5cm in length with chunky toes and visible heel. Note narrow angle of toes compared to the oystercatcher. Angle of all toes always less than 75&deg;.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/little-penguin","name":"Little penguin"}
-        ]
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=3817&verifiable=any"
     },
     // Albatrossses and Mollymawks
     // Fullmars, Prions, Petrels and shearwaters
@@ -98,7 +101,8 @@ var species = [
             {"link":"http://nzbirdsonline.org.nz/species/white-faced-heron","name":"White-faced heron"},
             {"link":"http://nzbirdsonline.org.nz/species/reef-heron","name":"Reef heron"},
             {"link":"http://nzbirdsonline.org.nz/species/white-heron","name":"White heron"}
-        ]
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=4929&verifiable=any"
     },
     // Ibises and Spoonbills
     // Raptors
@@ -117,7 +121,8 @@ var species = [
         "desc":"13-15cm in length depending on the size of the bird.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/pukeko","name":"Pukeko"}
-        ]
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=418530&verifiable=any"
     },
     {
         "category": "birds",
@@ -132,7 +137,8 @@ var species = [
         "desc":"15cm in length, we need more photos to compare to pukeko.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/south-island-takahe","name":"South Island takahe"}
-        ]
+        ],
+        "inatlink": null
     },
     {
         "category": "birds",
@@ -148,7 +154,8 @@ var species = [
         "desc":"4-5cm in length, weight evenly distrubuted, longer middle toe than a stilt.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/banded-rail","name":"Banded rail"}
-        ]
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=464857&verifiable=any"
     },
     // Snipes, Sandpipers, Godwits and allies
     // Oystercatchers
@@ -167,7 +174,8 @@ var species = [
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/south-island-pied-oystercatcher","name":"South Island Pied Oystercatcher"},
             {"link":"http://nzbirdsonline.org.nz/species/variable-oystercatcher","name":"Variable Oystercatcher"}
-        ]
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=71325&verifiable=any"
     },
     // Stilts and Avocets
     {
@@ -185,7 +193,8 @@ var species = [
         "similar":[
             {"link":"http://www.nzbirdsonline.org.nz/species/pied-stilt","name":"Pied Stilt"},
             {"link":"http://nzbirdsonline.org.nz/species/black-stilt","name":"Black Stilt"}
-        ]
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=71361&verifiable=any"
     },
     // Plovers, Dotterels and Lapwings
     {
@@ -203,7 +212,8 @@ var species = [
         "desc":"3cm in length with asymmetric toes. Dotterels walk on their toes so heel not often visible.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/new-zealand-dotterel","name":"New Zealand Dotterel"}
-        ]
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=4829&verifiable=any"
     },
     {
         "category": "birds",
@@ -235,7 +245,8 @@ var species = [
         "desc":"4cm in length with asymmetric toes. Toes slightly slimmer than oystercatcher. Walk on their toes so heel not always visible.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/spur-winged-plover","name":"Spur-winged plover"}
-        ]
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=413584&verifiable=any"
     },
     // Pratincoles and Coursers
     // Skuas
@@ -254,7 +265,8 @@ var species = [
         "desc":"7cm in length with webbing on feet noticeable in soft sand.",
         "similar":[
             {"link":"http://www.nzbirdsonline.org.nz/species/southern-black-backed-gull","name":"Southern black-backed gull"}
-        ]
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=333759&verifiable=any"
     },
     {
         "category": "birds",
@@ -271,7 +283,8 @@ var species = [
         "similar":[
             {"link":"http://www.nzbirdsonline.org.nz/species/red-billed-gull","name":"Red-billed gull"},
             {"link":"http://www.nzbirdsonline.org.nz/species/black-billed-gull","name":"Black-billed gull"}
-        ]
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=144320&verifiable=any"
     },
     // Noddies and Terns
     {
@@ -288,7 +301,8 @@ var species = [
         "desc":"5cm in length with webbing usually visible, narrower and more asymetrical than a gull print.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/caspian-tern","name":"Caspian Tern"}
-        ]
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=144537&verifiable=any"
     },
     {
         "category": "birds",
@@ -304,7 +318,8 @@ var species = [
         "desc":"2cm in length with webbing visible and middle toe elongated. Similar to the Caspian Tern but smaller.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/white-fronted-tern","name":"White-fronted Tern"}
-        ]
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=4478&verifiable=any"
     },
     // Pidgeons and doves
     // Cockatoos, Parrots and parakeets
@@ -341,7 +356,8 @@ var species = [
         "similar":[
             {"link":"http://www.nzbirdsonline.org.nz/species/eurasian-skylark","name":"Eurasian Skylark"},
             {"link":"http://www.nzbirdsonline.org.nz/species/new-zealand-pipit","name":"Pipit"}
-        ]
+        ],
+        "inatlink": null
     },
     // Reed-warblers
     // Grassbirds and allies
@@ -371,7 +387,8 @@ var species = [
         "similar":[
             {"link":"http://www.pestdetective.org.nz/culprits/rabbit/","name":"Rabbit"},
             {"link":"http://www.pestdetective.org.nz/culprits/new-culprit-page-3/","name":"Juvenile brown hare"}
-        ]
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=43095&verifiable=any"
     },
     {
         "category": "mammals",
@@ -387,7 +404,8 @@ var species = [
         "desc":"Heart-shaped central pad and four toe pads with retractable claws.",
         "similar":[
             {"link":"http://www.pestdetective.org.nz/culprits/cat/","name":"Cat"}
-        ]
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=118552&verifiable=any"
     },
     {
         "category": "mammals",
@@ -403,7 +421,8 @@ var species = [
         "desc":"Large pads and claws visible. Variable in length.",
         "similar":[
             {"link":"https://www.kiwisforkiwi.org/resources/dogs-cats/","name":"Dog"}
-        ]
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=47144&verifiable=any"
     },
     {
         "category": "mammals",
@@ -419,7 +438,8 @@ var species = [
         "desc":"Five-toed fore-feet, different hind-feet, claw marks.",
         "similar":[
             {"link":"http://www.pestdetective.org.nz/culprits/possum/","name":"Possum"}
-        ]
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=42808&verifiable=any"
     },
     {
         "category": "mammals",
@@ -435,7 +455,8 @@ var species = [
         "desc":"Hedgehog toe pads are larger and closer to the central pad compared with rat or ferret prints. - http://www.landcareresearch.co.nz",
         "similar":[
             {"link":"http://www.pestdetective.org.nz/culprits/hedgehog/","name":"Hedgehog"}
-        ]
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=43042&verifiable=any"
     },
     {
         "category": "mammals",
@@ -449,7 +470,8 @@ var species = [
         "desc":"Four toes on forefoot, five on hindfoot. 8mm wide can look like scattered dots.",
         "similar":[
             {"link":"http://www.pestdetective.org.nz/culprits/mouse/","name":"Mouse"}
-        ]
+        ],
+        "inatlink": null
     },
     {
         "category": "mammals",
@@ -463,7 +485,8 @@ var species = [
         "desc":"Four toes on forefoot, five on hindfoot. 1-2cm wide.",
         "similar":[
             {"link":"http://www.pestdetective.org.nz/culprits/ship-rat/","name":"Ship rat"}
-        ]
+        ],
+        "inatlink": null
     },
     {
         "category": "mammals",
@@ -477,7 +500,8 @@ var species = [
         "desc":"Five toes each foot. Claws visible.",
         "similar":[
             {"link":"http://www.pestdetective.org.nz/culprits/stoat/","name":"Stoat"}
-        ]
+        ],
+        "inatlink": null
     },
     {
         "category": "mammals",
@@ -491,7 +515,8 @@ var species = [
         "desc":"Cleaved hooves with pointed, slightly in-curved tips – Pest Detective",
         "similar":[
             {"link":"http://www.pestdetective.org.nz/culprits/goat/","name":"Goat"}
-        ]
+        ],
+        "inatlink": null
     },
     
     // Other
@@ -509,7 +534,8 @@ var species = [
         "desc":"Leaves distinctive trails at night. Can be found hidding in the sand during the day at the end of their tracks.",
         "similar":[
             {"link":"https://inaturalist.nz/taxa/408947-Pericoptus-truncatus","name":"Large Sand Scarab"}
-        ]
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=408947&verifiable=any"
     },
     {
         "category": "other",
@@ -536,7 +562,8 @@ var species = [
             {"link":"https://www.reptiles.org.nz/herpetofauna/native/oligosoma-whitakeri","name":"Whitaker's skink"},
             {"link":"https://www.reptiles.org.nz/herpetofauna/native/oligososma-aeneum","name":"Copper skink"},
             {"link":"https://www.reptiles.org.nz/herpetofauna/non-native/lampropholis-delicata","name":"Plague skink"}
-        ]
+        ],
+        "inatlink": null
     } // no comma on last item
 
 ];

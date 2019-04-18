@@ -27,6 +27,9 @@ species.forEach(function(item){
         animal = animal + "<div><a data-type='image' data-fancybox='" + item["folder"] + "' href='img/" + item["category"] + "/" + item["folder"] + "/" + photo["name"] + ".jpg' data-caption='" + photo["title"]  + "'><img src='img/" + item["category"] + "/" + item["folder"] + "/-" + photo["name"] + ".jpg' ></a></div>";
         count_photos = count_photos + 1;
     });
+    if(item["inatlink"]) {
+        animal = animal + "<div style='display: none;'><a data-fancybox='" + item["folder"] + "' data-src='#" + item["folder"] + "-html' href='javascript:;'>Trigger the fancybox</a></div>";
+    }
     for (var i = 4; i > count_photos; i--) {
         animal = animal + "<div><img src='img/blank.png'></div>";
     }
@@ -47,6 +50,9 @@ species.forEach(function(item){
     });
     animal = animal + "</p>";
     animal = animal + "</div>";
+    if(item["inatlink"]) { // link to iNat for more obs
+        animal = animal + "<div style='display: none;' id='" + item["folder"] + "-html'><p>See <a href='" + item["inatlink"] + "'>more photos</a> of " + item["name"] + " prints on iNaturalist.nz</p></div>";
+    }
     $('section.animals').append(animal);
 });
 
@@ -171,7 +177,8 @@ $('.gallery').each(function() {
         mobile: { // close when tap outside image
             clickSlide: "close",
             clickOutside: "close",
-        }
+        },
+        smallBtn:false
     });
 });
 

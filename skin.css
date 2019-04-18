@@ -311,4 +311,11 @@ footer p {
     text-align: center;
 }
 
-
+/* Fancybox tweaks */
+.fancybox-content {
+    background: transparent;   
+}
+.fancybox-content p {
+    font-size: 1.6rem;
+    color: rgb(255,255,255);
+}
