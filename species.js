@@ -228,8 +228,8 @@ var species = [
         "photos":[
             {"name":"a", "title":"Photo by Emily Roberts"},
             {"name":"b", "title":"Photo by Emily Roberts"},
-            {"name":"b", "title":"Photo by Jordi Tablada"},
-            {"name":"b", "title":"Photo by Jordi Tablada"}
+            {"name":"c", "title":"Photo by Jordi Tablada"},
+            {"name":"d", "title":"Photo by Jordi Tablada"}
         ],
         
         "desc":"4cm in length with asymmetric toes. Toes slightly slimmer than oystercatcher. Walk on their toes so heel not always visible.",
