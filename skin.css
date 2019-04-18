@@ -214,7 +214,8 @@ nav a:last-child img {
     font-weight: 700;
 }
 
-.species a:link, .species a:visited, .species a:active {
+.species a:link, .species a:visited, .species a:active,
+.fancybox-content p a:link, .fancybox-content p a:visited, .fancybox-content p a:active {
     display: inline-block;
     padding: .2rem .8rem;
     margin: 0 0 .2rem 0;
@@ -224,7 +225,8 @@ nav a:last-child img {
     color: rgb(27,17,7);
 }
 
-.species a:hover {
+.species a:hover,
+.fancybox-content p a:hover {
     display: inline-block;
     padding: .2rem .8rem;
     margin: 0 0 .2rem 0;
@@ -316,6 +318,7 @@ footer p {
     background: transparent;   
 }
 .fancybox-content p {
+    text-align: center;
     font-size: 1.6rem;
     color: rgb(255,255,255);
 }
