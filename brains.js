@@ -51,7 +51,7 @@ species.forEach(function(item){
     animal = animal + "</p>";
     animal = animal + "</div>";
     if(item["inatlink"]) { // link to iNat for more obs
-        animal = animal + "<div style='display: none;' id='" + item["folder"] + "-html'><p>See <a href='" + item["inatlink"] + "'>more photos</a> of " + item["name"] + " prints on iNaturalist.nz</p></div>";
+        animal = animal + "<div style='display: none;' id='" + item["folder"] + "-html'><p>See <a href='" + item["inatlink"] + "' target='blank'>more photos</a> of " + item["name"] + " prints on iNaturalist.nz</p></div>";
     }
     $('section.animals').append(animal);
 });
