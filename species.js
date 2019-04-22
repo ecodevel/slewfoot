@@ -32,13 +32,15 @@ var species = [
         "photos":[
             {"name":"a", "title":"Photo by Jordi Tablada"},
             {"name":"b", "title":"Photo by Jordi Tablada"},
+            {"name":"c", "title":"Photo by Shaun Lee"},
+            {"name":"d", "title":"Photo by Shaun Lee"}
         ],
-        "desc":"6.5cm in length with webbing often visible. Shorter steps than a Southern Black-backed gull.",
+        "desc":"6-7cm in length with webbing often visible. Shorter steps than a Southern Black-backed gull.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/mallard","name":"Mallard"},
             {"link":"https://inaturalist.nz/taxa/410743-Anas-superciliosa-%C3%97-platyrhynchos","name":"Grey Duck × Mallard Hybrid"},
         ],
-        "inatlink": null
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=6930&verifiable=any"
     },
     // Grebes
     // Penguins
@@ -158,6 +160,25 @@ var species = [
         "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=464857&verifiable=any"
     },
     // Snipes, Sandpipers, Godwits and allies
+    {
+        "category": "birds",
+        "name":"Godwits",
+        "subname":"Kuaka, Limosa",
+        "folder": "godwit",
+        "photos":[
+            {"name":"a", "title":"Bar-tailed Godwit, Photo by Shaun Lee"},
+            {"name":"b", "title":"Bar-tailed Godwit, Photo by Shaun Lee"},
+            {"name":"c", "title":"Bar-tailed Godwit, Photo by Shaun Lee"},
+            {"name":"d", "title":"Bar-tailed Godwit, Photo by Shaun Lee"}
+        ],
+        "desc":"5.5cm in length. Hind toe not always visible.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/bar-tailed-godwit","name":"Bar-tailed godwit"},
+            {"link":"http://nzbirdsonline.org.nz/species/hudsonian-godwit","name":"Hudsonian godwit"},
+            {"link":"http://nzbirdsonline.org.nz/species/black-tailed-godwit","name":"Black-tailed godwit"}
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=3946&verifiable=any"
+    },
     // Oystercatchers
     {
         "category": "birds",
@@ -222,10 +243,12 @@ var species = [
         "folder": "banded-dotterel",
         "photos":[
             {"name":"a", "title":"Photo by Emily Roberts"},
-            {"name":"b", "title":"Photo by Emily Roberts"}
+            {"name":"b", "title":"Photo by Emily Roberts"},
+            {"name":"c", "title":"Photo by Shaun Lee"},
+            {"name":"d", "title":"Photo by Shaun Lee"}
         ],
         
-        "desc":"2cm in length with asymmetric toes. Banded dotterels walk on their toes so heel not often visible.",
+        "desc":"2-2.5cm in length with asymmetric toes. Banded dotterels walk on their toes so heel not often visible.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/banded-dotterel","name":"Banded dotterel"}
         ]
