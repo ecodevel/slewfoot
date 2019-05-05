@@ -518,7 +518,9 @@ var species = [
         "folder": "stoat",
         "photos":[
             {"name":"a", "title":"Photo by Emily Roberts"},
-            {"name":"b", "title":"Photo by Emily Roberts"}
+            {"name":"b", "title":"Photo by Emily Roberts"},
+            {"name":"c", "title":"Photo by Emily Roberts"},
+            {"name":"d", "title":"Photo by Emily Roberts"}
         ],
         "desc":"Five toes each foot. Claws visible.",
         "similar":[
