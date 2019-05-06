@@ -524,9 +524,10 @@ var species = [
         ],
         "desc":"Five toes each foot. Claws visible.",
         "similar":[
-            {"link":"http://www.pestdetective.org.nz/culprits/stoat/","name":"Stoat"}
+            {"link":"http://www.pestdetective.org.nz/culprits/stoat/","name":"Stoat"},
+            {"link":"http://www.pestdetective.org.nz/culprits/weasel/","name":"Weasel"}
         ],
-        "inatlink": null
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=41770&verifiable=any"
     },
     {
         "category": "mammals",
