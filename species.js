@@ -503,13 +503,15 @@ var species = [
         "folder": "ship-rat",
         "photos":[
             {"name":"a", "title":"Photo by Shaun Lee"},
-            {"name":"b", "title":"Photo by Emily Roberts"}
+            {"name":"b", "title":"Photo by Emily Roberts"},
+            {"name":"c", "title":"Photo by Emily Roberts"},
+            {"name":"d", "title":"Photo by Emily Roberts"}
         ],
         "desc":"Four toes on forefoot, five on hindfoot. 1-2cm wide.",
         "similar":[
             {"link":"http://www.pestdetective.org.nz/culprits/ship-rat/","name":"Ship rat"}
         ],
-        "inatlink": null
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=44575&verifiable=any"
     },
     {
         "category": "mammals",
