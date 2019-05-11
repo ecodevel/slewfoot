@@ -406,12 +406,27 @@ var species = [
             {"name":"c", "title":"Larger back feet. Photo by Emily Roberts"},
             {"name":"d", "title":"Photo by Emily Roberts"}
         ],
-        "desc":"Back feet much longer than front feet. Length of back feet not always obvious in sand if running.",
+        "desc":"Hind feet much longer than fore feet. Length of hind feet not always obvious in sand if running.",
         "similar":[
             {"link":"http://www.pestdetective.org.nz/culprits/rabbit/","name":"Rabbit"},
             {"link":"http://www.pestdetective.org.nz/culprits/new-culprit-page-3/","name":"Juvenile brown hare"}
         ],
         "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=43095&verifiable=any"
+    },
+    {
+        "category": "mammals",
+        "name":"Brown Hare",
+        "subname":"Hea, Lepus europaeus",
+        "folder": "hare",
+        "photos":[
+            {"name":"a", "title":"Hind foot. Photo by Jon Sullivan"},
+            {"name":"b", "title":"Fore foot. Photo by Jon Sullivan"}
+        ],
+        "desc":"Hind feet much longer than fore feet but land infront of forefeet.",
+        "similar":[
+            {"link":"http://www.pestdetective.org.nz/culprits/new-culprit-page-3/","name":"Brown hare"}
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=6803&project_id=animal-footprints-in-nz&taxon_id=43128"
     },
     {
         "category": "mammals",
