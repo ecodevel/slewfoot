@@ -144,6 +144,22 @@ var species = [
     },
     {
         "category": "birds",
+        "name":"Weka",
+        "subname":"Gallirallus australis",
+        "folder": "weka",
+        "photos":[
+            {"name":"a", "title":"Photo by Jon Sullivan"},
+            {"name":"b", "title":"Photo by Jon Sullivan"},
+            {"name":"c", "title":"Photo by Jon Sullivan"}
+        ],
+        "desc":"About 8cm in length, an precise meausrement would be good.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/weka","name":"Weka"}
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=6803&project_id=animal-footprints-in-nz&taxon_id=436"
+    },
+    {
+        "category": "birds",
         "name":"Banded rail",
         "subname":"Mioweka, Gallirallus philippensis",
         "folder": "banded-rail",
@@ -471,7 +487,7 @@ var species = [
             {"name":"a", "title":"Photo by Emily Roberts"},
             {"name":"b", "title":"Photo by Emily Roberts"},
             {"name":"c", "title":"Photo by Emily Roberts"},
-            {"name":"d", "title":"Photo by Emily Roberts"},
+            {"name":"d", "title":"Snow substrate. Photo by Jon Sullivan"},
         ],
         "desc":"Five-toed fore-feet, different hind-feet, claw marks.",
         "similar":[
