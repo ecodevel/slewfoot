@@ -1,6 +1,30 @@
 // Oganised by taxonomy, ref Birds New Zealand feild guide
 
 var species = [
+    // Dinornithiformes
+    {
+        "category": "birds",
+        "name":"Moa",
+        "subname":"Dinornis",
+        "folder": "moa",
+        "photos":[
+            {"name":"a", "title":"Dinornis robustus, Manawatū River. K. Wilson, 'Footprints of the moa.' Transactions of the Royal Society of New Zealand 45 (1912): plate 2"},
+            {"name":"b", "title":"Photo by Kane Fleury / Otago Museum"}
+        ],
+        "desc":"Up to 36cm long, three strong front-pointing toes. A small rear toe (unlike most other ratites) may be visible.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/upland-moa","name":"Upland moa"},
+            {"link":"http://nzbirdsonline.org.nz/species/little-bush-moa","name":"Little bush moa"},
+            {"link":"http://nzbirdsonline.org.nz/species/heavy-footed-moa","name":"Heavy-footed moa"},
+            {"link":"http://nzbirdsonline.org.nz/species/mantells-moa","name":"Mantell's moa"},
+            {"link":"http://nzbirdsonline.org.nz/species/crested-moa","name":"Crested moa"},
+            {"link":"http://nzbirdsonline.org.nz/species/eastern-moa","name":"Eastern moa"},
+            {"link":"http://nzbirdsonline.org.nz/species/stout-legged-moa","name":"Stout-legged moa"},
+            {"link":"http://nzbirdsonline.org.nz/species/north-island-giant-moa","name":"North Island giant moa"},
+            {"link":"http://nzbirdsonline.org.nz/species/south-island-giant-moa","name":"South Island giant moa"}
+        ],
+        "inatlink": null
+    },
     // Kiwi
     {
         "category": "birds",
@@ -10,7 +34,7 @@ var species = [
         "photos":[
             {"name":"a", "title":"Photo by Jordi Tablada"},
             {"name":"b", "title":"Photo by Jordi Tablada"},
-            {"name":"c", "title":"Photo by Jordi Tablada"},
+            {"name":"c", "title":"Photo by Jordi Tablada"}
         ],
         "desc":"11cm long, no fourth (hind) toe unless very deep mud. Often associated with probe holes.",
         "similar":[
@@ -53,7 +77,7 @@ var species = [
             {"name":"a", "title":"Photo by Emily Roberts"},
             {"name":"b", "title":"Photo by Emily Roberts"},
             {"name":"c", "title":"Photo by Emily Roberts"},
-            {"name":"d", "title":"Photo by Jordi Tablada"},
+            {"name":"d", "title":"Photo by Jordi Tablada"}
         ],
         "desc":"5.5cm in length with chunky toes and visible heel. Note narrow angle of toes compared to the oystercatcher. Angle of all toes always less than 75&deg;.",
         "similar":[
