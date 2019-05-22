@@ -604,7 +604,8 @@ var species = [
         "photos":[
             {"name":"a", "title":"Egg laying skink, Photo by Shaun Lee"},
             {"name":"b", "title":"Egg laying skink, Photo by Shaun Lee"},
-            {"name":"c", "title":"Skink, Photo by Shaun Lee"}
+            {"name":"c", "title":"Skink, Photo by Shaun Lee"},
+            {"name":"d", "title":"Skink footprints with tail drag markings , Photo by Shaun Lee"}
         ],
         "desc":"Most species are 3-6mm in length. Each species has distinctive markings.",
         "similar":[
