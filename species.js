@@ -9,7 +9,9 @@ var species = [
         "folder": "moa",
         "photos":[
             {"name":"a", "title":"Photo by Kane Fleury / Otago Museum"},
-            {"name":"b", "title":"Dinornis robustus, Manawatū River. K. Wilson, \"Footprints of the moa\". Transactions of the Royal Society of New Zealand 45 (1912): plate 2"}
+            {"name":"b", "title":"Dinornis robustus, Manawatū River. K. Wilson, \"Footprints of the moa\". Transactions of the Royal Society of New Zealand 45 (1912): plate 2"},
+            {"name":"c", "title":"Photo by Ian Griffin / Otago Museum"},
+            {"name":"d", "title":"Photo by Ian Griffin / Otago Museum"}
         ],
         "desc":"Up to 36cm long, three strong front-pointing toes. A small rear toe (unlike most other ratites) may be visible.",
         "similar":[
