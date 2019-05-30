@@ -66,6 +66,23 @@ var species = [
         ],
         "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=6930&verifiable=any"
     },
+    {
+        "category": "birds",
+        "name":"Paradise Shelduck",
+        "subname":"Tadorna variegata, Pūtangitangi",
+        "folder": "paradise-shelduck",
+        "photos":[
+            {"name":"a", "title":"Photo by Jordi Tablada"},
+            {"name":"b", "title":"Photo by Jordi Tablada"},
+            {"name":"c", "title":"Photo by Jordi Tablada"},
+            {"name":"d", "title":"Photo by Jordi Tablada"}
+        ],
+        "desc":"7cm in length with webbing often visible. Shorter inner toe.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/paradise-shelduck","name":"Paradise shelduck"},
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=6803&project_id=animal-footprints-in-nz&subview=table&taxon_id=7072"
+    },
     // Grebes
     // Penguins
     {
