@@ -248,7 +248,7 @@ var species = [
             {"name":"a", "title":"South Island Pied Oystercatcher, Photo by Shaun Lee"},
             {"name":"b", "title":"South Island Pied Oystercatcher, Photo by Shaun Lee"},
             {"name":"c", "title":"Variable Oystercatcher, Photo by Shaun Lee"},
-            {"name":"d", "title":"Variable Oystercatcher, Photo by Shaun Lee"}
+            {"name":"d", "title":"Variable Oystercatcher footprints and probe holes, Photo by Shaun Lee"}
         ],
         "desc":"5cm in length. Oystercatchers walk on their toes so heel not always visible. Toes more chunky than Spur-winged plover.",
         "similar":[
