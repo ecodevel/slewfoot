@@ -150,6 +150,21 @@ var species = [
         "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=4929&verifiable=any"
     },
     // Ibises and Spoonbills
+   {
+        "category": "birds",
+        "name":"Royal Spoonbill",
+        "subname":"Kōtuku ngutupapa",
+        "folder": "spoonbill",
+        "photos":[
+            {"name":"a", "title":"Photo by Shaun Lee"},
+            {"name":"b", "title":"Photo by Shaun Lee"},
+            {"name":"c", "title":"Left to right scapes through the print made by sweeps of the bill. Photo by Shaun Lee"}
+        ],
+        "desc":"Around 18cm in length, more obersvations needed.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/royal-spoonbill","name":"Royal Spoonbill"}
+        ]
+    },
     // Raptors
     // Rails, Gallinules and Coots
    {
