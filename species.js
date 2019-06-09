@@ -462,6 +462,20 @@ var species = [
     // Swallows and Martins
     // Thrushes
     // Starlings and Mynas
+    {    
+    "category": "birds",
+        "name":"Myna",
+        "subname":"Common myna, Acridotheres tristis",
+        "folder": "myna",
+        "photos":[
+            {"name":"a", "title":"Photo by Photo by Jordi Tablada"},
+        ],
+        "desc":"2cm in length?",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/common-myna","name":"Common myna"}
+        ],
+        "inatlink": null
+    },
     // Old world sparrows
     // Pipits and Wagtails
     // Accentors
