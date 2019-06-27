@@ -447,7 +447,9 @@ var species = [
         "folder": "skylark",
         "photos":[
             {"name":"a", "title":"Photo by Shaun Lee"},
-            {"name":"b", "title":"Walking. Photo by Shaun Lee"}
+            {"name":"b", "title":"Walking. Photo by Shaun Lee"},
+            {"name":"c", "title":"Photo by Jordi Tablada"},
+            {"name":"d", "title":"Photo by Jordi Tablada"}
         ],
         "desc":"3cm in length. Back claw drags when walking.",
         "similar":[
