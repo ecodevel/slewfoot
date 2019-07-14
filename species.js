@@ -673,6 +673,44 @@ var species = [
     },
     {
         "category": "other",
+        "name":"Gecko",
+        "subname":"Mokomoko",
+        "folder": "gecko",
+        "photos":[
+            {"name":"a", "title":"Thick toes pads with horizontal lines. Photo by Shaun Lee"},
+            {"name":"b", "title":"Note size difference betwwen front and back feet. Tail drag mark. Photo by Shaun Lee"}
+        ],
+        "desc":"Size varies a lot. Each species has distinctive markings.",
+        "similar":[
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/dactylocnemis-pacificus","name":"Pacific gecko"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/hoplodactylus-delcourti","name":"Kawekaweau gecko"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/hoplodactylus-duvaucelii","name":"Duvaucel's Gecko"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/mokopirirakau-roys-peak","name":"Orange-spotted gecko"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/mokopirirakau-southern-north-island","name":"Ngahere gecko"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/mokopirirakau-cryptozoicus","name":"Takitimu gecko"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/mokopirirakau-granulatus","name":"Forest gecko"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/mokopirirakau-kahutarae","name":"Black-eyed gecko"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/mokopirirakau-nebulosus","name":"Cloudy gecko"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/naultinus-north-cape","name":"Aupori green gecko"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/naultinus-elegans","name":"Elegant gecko"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/naultinus-gemmeus","name":"Jewelled gecko"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/naultinus-grayii","name":"Northland green gecko"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/naultinus-manukanus","name":"Marlborough green gecko"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/naultinus-punctatus","name":"Barking gecko"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/naultinus-rudis","name":"Rough gecko"},  
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/naultinus-stellatus","name":"Starred gecko"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/naultinus-tuberculatus","name":"West Coast green gecko"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/toropuku-stephensi","name":"Northern striped gecko"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/tukutuku-rakiurae","name":"Harlequin gecko"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/woodworthia-brunnea","name":"Waitaha gecko"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/woodworthia-chrysosiretica","name":"Goldstripe gecko"},
+            {"link":"https://www.reptiles.org.nz/herpetofauna/native/woodworthia-maculata","name":"Raukawa gecko"}
+
+        ],
+        "inatlink": null
+    } // no comma on last item
+    {
+        "category": "other",
         "name":"Skink",
         "subname":"Oligosoma, Mokomoko",
         "folder": "skink",
