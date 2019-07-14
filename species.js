@@ -39,7 +39,7 @@ var species = [
             {"name":"c", "title":"Photo by Jordi Tablada"},
             {"name":"d", "title":"Probe hole of a North Island Brown Kiwi. Photo by Shaun Lee"}
         ],
-        "desc":"11cm long, no fourth (hind) toe unless very deep mud. Often associated with probe holes.",
+        "desc":"Up to around 12cm long, no fourth (hind) toe unless very deep mud. Often associated with probe holes.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/north-island-brown-kiwi","name":"North Island brown kiwi"},
             {"link":"http://nzbirdsonline.org.nz/species/okarito-brown-kiwi","name":"Okarito brown kiwi"},
@@ -680,7 +680,7 @@ var species = [
             {"name":"a", "title":"Thick toes pads with horizontal lines. Photo by Shaun Lee"},
             {"name":"b", "title":"Note size difference betwwen front and back feet. Tail drag mark. Photo by Shaun Lee"}
         ],
-        "desc":"Size varies a lot. Each species has distinctive markings.",
+        "desc":"Size varies a lot. Horizontal lines on thick toe pads.",
         "similar":[
             {"link":"https://www.reptiles.org.nz/herpetofauna/native/dactylocnemis-pacificus","name":"Pacific gecko"},
             {"link":"https://www.reptiles.org.nz/herpetofauna/native/hoplodactylus-delcourti","name":"Kawekaweau gecko"},
@@ -720,7 +720,7 @@ var species = [
             {"name":"c", "title":"Skink, Photo by Shaun Lee"},
             {"name":"d", "title":"Skink footprints with tail drag markings , Photo by Shaun Lee"}
         ],
-        "desc":"Most species are 3-6mm in length. Each species has distinctive markings.",
+        "desc":"Size varies a lot. Each species has distinctive markings.",
         "similar":[
             {"link":"https://www.reptiles.org.nz/herpetofauna/native/oligosoma-alani","name":"Robust skink"},
             {"link":"https://www.reptiles.org.nz/herpetofauna/native/oligosoma-grande","name":"Grand skink"},
