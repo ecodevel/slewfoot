@@ -4,10 +4,10 @@ var species = [
     // Dinornithiformes
     {
         "category": "birds",
-        "name":"Moa",
-        "subname":"Dinornis",
+        "name": "Moa",
+        "subname": "Dinornis",
         "folder": "moa",
-        "photos":[
+        "photos": [
             {"name":"a", "title":"Photo by Kane Fleury / Otago Museum"},
             {"name":"b", "title":"Dinornis robustus, Manawatū River. K. Wilson, \"Footprints of the moa\". Transactions of the Royal Society of New Zealand 45 (1912): plate 2"},
             {"name":"c", "title":"Photo by Ian Griffin / Otago Museum"},
@@ -30,13 +30,14 @@ var species = [
     // Kiwi
     {
         "category": "birds",
-        "name":"Kiwi",
-        "subname":"Apterygidae, Apteryx",
+        "name": "Kiwi",
+        "subname": "Apterygidae, Apteryx",
         "folder": "kiwi",
         "photos":[
             {"name":"a", "title":"Photo by Jordi Tablada"},
             {"name":"b", "title":"Photo by Jordi Tablada"},
-            {"name":"c", "title":"Photo by Jordi Tablada"}
+            {"name":"c", "title":"Photo by Jordi Tablada"},
+            {"name":"d", "title":"Probe hole of a North Island Brown Kiwi. Photo by Shaun Lee"}
         ],
         "desc":"11cm long, no fourth (hind) toe unless very deep mud. Often associated with probe holes.",
         "similar":[
