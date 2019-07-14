@@ -708,7 +708,7 @@ var species = [
 
         ],
         "inatlink": null
-    } // no comma on last item
+    },
     {
         "category": "other",
         "name":"Skink",
