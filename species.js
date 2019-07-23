@@ -34,9 +34,9 @@ var species = [
         "subname": "Apterygidae, Apteryx",
         "folder": "kiwi",
         "photos":[
-            {"name":"a", "title":"Photo by Jordi Tablada"},
+            {"name":"a", "title":"Adult North Island Brown Kiwi. Photo by Lesley Baigent"},
             {"name":"b", "title":"Photo by Jordi Tablada"},
-            {"name":"c", "title":"Photo by Jordi Tablada"},
+            {"name":"c", "title":"Juvenile ink print. Photo by Lesley Baigent"},
             {"name":"d", "title":"Probe hole of a North Island Brown Kiwi. Photo by Shaun Lee"}
         ],
         "desc":"Up to around 12cm long, no fourth (hind) toe unless very deep mud. Often associated with probe holes.",
