@@ -41,6 +41,172 @@ a:hover {
     border-bottom: 2px solid;
 }
 
+/* GENERAL */
+
+.button:link, .button:visited, .button:active {
+    padding: 1rem 1rem;
+    border-radius: 6px;
+    margin: .2rem .2rem 0 .2rem;
+    font-size: 1.6rem;
+    background-color: rgb(225,175,0);
+    color: rgb(27,17,7);
+    text-transform: uppercase;
+    transition: all .2s ease-in;
+}
+
+.button:hover {
+    background-color: #fff;
+    border: 0;
+}
+
+/* Home */
+
+.home header {
+    position: relative;
+    height: 66.67vw;
+    max-height: 600px;
+    background-image: url(img/home/home-splash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.home header .logo {
+    margin: 0;
+}
+
+.home header h1 {
+    font-size: 2rem;
+    color: rgb(245,245,243);
+    font-style: bold;
+    text-align: center;
+    padding: 0;
+    position: absolute;
+    bottom: 30%;
+    left: 0;
+    width: 100%;
+}
+
+.home header .button {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.tiles {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.tiles div {
+    flex-basis: 33%;
+    margin: 0;
+    background-color: rgb(245,245,243);
+    box-sizing: border-box;
+    padding: .5rem;
+    border-radius: 1.3rem;
+}
+
+.tiles div p {
+    padding: 0 0 0 2.2rem;
+    text-indent: -1.2rem;
+}
+
+.tiles div p::first-letter {
+    font-weight: 700;
+}
+
+.tiles div img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 1rem;
+    background: rgb(245,245,243);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.news div {
+    flex-basis: 100%;
+    display: flex;
+    margin: 0 0 2rem 0;
+}
+
+.news div img {
+    border-radius: 100%;
+    width: 10rem;
+    height: 10rem;
+}
+
+.news div p {
+    padding: 1rem 1rem 0 1rem;
+    text-align: left;
+}
+
+@media only screen and (min-width: 480px) {
+    .home header {
+        padding: 2rem; 
+    }
+    .home header h1 {
+        font-size: 3rem;
+    }
+    .home header .button {
+        font-size: 2rem;
+        padding: 2rem 4rem;
+    }
+    .tiles div p {
+        font-size: 1.2rem;
+    }
+    .news div p {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .home header {
+        padding: 6rem; 
+    }
+    .home header h1 {
+        font-size: 5rem;
+    }
+    .home header .button {
+        bottom: 6rem;
+        right: 6rem;
+    }
+    .tiles div p {
+        font-size: 1.6rem;
+        padding: 0 0 0 3rem;
+        text-indent: -1.6rem;
+    }
+    .news {
+        flex-wrap: nowrap;
+    }
+    .news div {
+        flex-basis: 33%;
+    }
+    .news div p {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .home {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+}
+
 /* Header */
 .logo {
     text-indent: -9999px;
