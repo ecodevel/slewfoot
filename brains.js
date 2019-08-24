@@ -123,7 +123,7 @@ function showAndHide (or, showAll) {
 $('nav a[data-id!=""]').click(function() {
     if (!$ (this).hasClass( 'selected' )) {
         // Update nav buttons state
-        $('.menu .button').removeClass('selected');
+        $('.menu a').removeClass('selected');
         $ (this).addClass( 'selected' );
         // Exclude or include animals div according to category
         var cat = $ (this).data('id');
