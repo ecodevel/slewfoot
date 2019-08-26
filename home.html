@@ -37,7 +37,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
         <link rel="stylesheet" href="skin.css">
 
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body class="home">
 
@@ -89,5 +89,16 @@
                 <p><a href="#">NZ Tracker.org</a> is made by <a href="https://jordi.nz">Jordi Tablada</a> &amp; <a href="http://shaunlee.co.nz">Shaun Lee</a>. It would not have been possible without the help of <a href="https://www.inaturalist.org/people/emily_r">Emily Roberts</a>. All images copyright of the photographers.</p>
             </section>
         </footer>
+
+        <script type="text/javascript">
+            // Random header background image
+            $(document).ready(function() {
+                var path = 'img/home/';
+                var bgArray = ['home-splash-a.jpg', 'home-splash-b-center.jpg'];
+                var bg = bgArray[Math.floor(Math.random() * bgArray.length)];
+                $('.header').css('background-image', "url(" + path + bg + ")").fadeIn();
+            }); 
+        </script>   
+
     </body>
 </html>
