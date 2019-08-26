@@ -70,6 +70,7 @@ a:hover {
     margin: 1rem;
     padding: 1rem;
     border-radius: 1rem;
+    display:none;
 }
 
 .home header .logo {
