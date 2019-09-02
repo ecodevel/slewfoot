@@ -142,7 +142,7 @@ var species = [
             {"name":"c", "title":"Photo by Shaun Lee"},
             {"name":"d", "title":"Photo by Jordi Tablada"}
         ],
-        "desc":"11cm in length? Needs checking. More weight on toes, heal not always visible.",
+        "desc":"11cm in length <span class='note'>[More data needed to confirm]</span>. More weight on toes, heal not always visible.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/white-faced-heron","name":"White-faced heron"},
             {"link":"http://nzbirdsonline.org.nz/species/reef-heron","name":"Reef heron"},
@@ -211,7 +211,7 @@ var species = [
             {"name":"b", "title":"Photo by Jon Sullivan"},
             {"name":"c", "title":"Photo by Jon Sullivan"}
         ],
-        "desc":"About 8cm in length, an precise meausrement would be good.",
+        "desc":"About 8cm in length. <span class='note'>[A more precise meausrement needed]</span>",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/weka","name":"Weka"}
         ],
@@ -473,7 +473,7 @@ var species = [
         "photos":[
             {"name":"a", "title":"Photo by Photo by Jordi Tablada"},
         ],
-        "desc":"2cm in length?",
+        "desc":"About 2cm in length. <span class='note'>[A more precise meausrement needed]</span>",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/common-myna","name":"Common myna"}
         ],
@@ -513,7 +513,7 @@ var species = [
             {"name":"a", "title":"Hind foot. Photo by Jon Sullivan"},
             {"name":"b", "title":"Fore foot. Photo by Jon Sullivan"}
         ],
-        "desc":"Hind feet much longer than fore feet but land infront of forefeet.",
+        "desc":"Hind feet much longer than fore feet but land in front of forefeet.",
         "similar":[
             {"link":"http://www.pestdetective.org.nz/culprits/new-culprit-page-3/","name":"Brown hare"}
         ],
