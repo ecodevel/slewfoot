@@ -195,7 +195,7 @@ var species = [
             {"name":"b", "title":"Photo by Shaun Lee"},
             {"name":"c", "title":"Photo by Shaun Lee"}
         ],
-        "desc":"15cm in length, we need more photos to compare to pukeko.",
+        "desc":"15cm in length. <span class='note'>[Requires more photos to compare to pukeko.]</span>.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/south-island-takahe","name":"South Island takahe"}
         ],
