@@ -468,6 +468,10 @@ nav a:last-child img {
     cursor: pointer;
 }
 
+.note {
+    color: #999;
+}
+
 footer {
     text-align: center;
     margin: 2rem;
