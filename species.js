@@ -488,6 +488,23 @@ var species = [
     // Mammals
     {
         "category": "mammals",
+        "name":"New Zealand Fur Seal",
+        "subname":"Kekeno, Arctocephalus forsteri",
+        "folder": "seal",
+        "photos":[
+            {"name":"a", "title":"Photo by Adrian Riegen"},
+            {"name":"b", "title":"Photo by Kath Dewar"},
+            {"name":"c", "title":"Photo by Kath Dewar"},
+            {"name":"d", "title":"Photo by Kath Dewar"}
+        ],
+        "desc":"Up to 1m wide, fore flipper marks much larger than smaller hind flippers.",
+        "similar":[
+            {"link": "https://en.wikipedia.org/wiki/Arctocephalus_forsteri", "name": "New Zealand Fur Seal"}
+        ],
+        "inatlink": "https://inaturalist.nz/observations?captive=any&place_id=any&project_id=2795&taxon_id=41752&verifiable=any",
+    },
+    {
+        "category": "mammals",
         "name":"Wild European Rabbit",
         "subname":"Rāpeti, Oryctolagus cuniculus",
         "folder": "rabbit",
