@@ -497,7 +497,7 @@ var species = [
             {"name":"c", "title":"Photo by Kath Dewar"},
             {"name":"d", "title":"Photo by Kath Dewar"}
         ],
-        "desc":"To do.",
+        "desc":"Up to 1m wide, fore flipper marks much larger than smaller hind flippers.",
         "similar":[
             {"link": "https://en.wikipedia.org/wiki/Arctocephalus_forsteri", "name": "New Zealand Fur Seal"}
         ],
