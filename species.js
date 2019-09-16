@@ -99,7 +99,7 @@ var species = [
             {"name":"c", "title":"Photo by Emily Roberts"},
             {"name":"d", "title":"Photo by Jordi Tablada"}
         ],
-        "desc":"5.5cm in length with chunky toes and visible heel. Note narrow angle of toes compared to the oystercatcher. Angle of all toes always less than 75&deg;.",
+        "desc":"5.5cm in length with chunky claws and visible heel. Note narrow angle of toes compared to the oystercatcher. Angle of all toes always less than 75&deg;. <a href='http://www.bluepenguin.org.nz/wp-content/uploads/Tracking-blue-penguin-tracks.pdf' target='_blank'>Detailed guide.</a>",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/little-penguin","name":"Little penguin"}
         ],
