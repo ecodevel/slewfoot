@@ -120,7 +120,9 @@ var species = [
         
         "desc":"About 5cm in length. Horizontal tarsus visibile.",
         "similar":[
-            {"link":"http://www.nzbirdsonline.org.nz/species/common-diving-petrel","name":"Common diving petrel" }, {"link":"http://nzbirdsonline.org.nz/species/south-georgian-diving-petrel","name":"South Georgian diving petrel" } 
+            {"link":"http://www.nzbirdsonline.org.nz/species/common-diving-petrel","name":"Common diving petrel" },
+            {"link":"http://nzbirdsonline.org.nz/species/south-georgian-diving-petrel","name":"South Georgian diving petrel" },
+            {"link":"https://en.wikipedia.org/wiki/Whenua_Hou_diving_petrel","name":"Whenua Hou diving petrel" }
         ]
     },
     // Storm ptrels
