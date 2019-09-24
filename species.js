@@ -107,6 +107,22 @@ var species = [
     },
     // Albatrossses and Mollymawks
     // Fullmars, Prions, Petrels and shearwaters
+    {
+        "category": "birds",
+        "name":"Diving petrel",
+        "subname":"Pelecanoides",
+        "folder": "diving-petrel",
+        "photos":[
+            {"name":"a", "title":"Whenua Hou Diving Petrel. Photo by Flying Penguin Force"},
+            {"name":"b", "title":"Whenua Hou Diving Petrel. Photo by Flying Penguin Force"},
+            {"name":"c", "title":"Whenua Hou Diving Petrel. Photo by Flying Penguin Force"}
+        ],
+        
+        "desc":"About 5cm in length. Horizontal tarsus visibile.",
+        "similar":[
+            {"link":"http://www.nzbirdsonline.org.nz/species/common-diving-petrel","name":"Common diving petrel" }, {"link":"http://nzbirdsonline.org.nz/species/south-georgian-diving-petrel","name":"South Georgian diving petrel" } 
+        ]
+    },
     // Storm ptrels
     // Tropicbirds
     // Pelicans
