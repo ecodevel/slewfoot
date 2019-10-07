@@ -460,8 +460,8 @@ var species = [
         "folder": "kakapo",
         "photos":[
             {"name":"a", "title":"Left foot. Note claw holes. Photo by Andrew Digby"},
-            {"name":"b", "title":"Photo by Flying Penguin Force"},
-            {"name":"c", "title":"Taken on Whenua Hou. Photo by Leon Berard www.leonberardphotography.co.nz"}
+            {"name":"b", "title":"Photo by <a href=\"https://www.facebook.com/FlyingPenguingForce/\">Flying Penguin Force</a>"},
+            {"name":"c", "title":"Taken on Whenua Hou. Photo by <a href=\"https://www.leonberardphotography.co.nz\">Leon Berard</a>"}
         ],
         "desc":"11-12cm in length in distinctive K pattern. Larger and deeper than kea or kaka which are closer to 9cm long.",
         "similar":[
