@@ -24,7 +24,7 @@ species.forEach(function(item){
         "<div class='gallery'>";
     var count_photos = 0;
     item["photos"].forEach(function(photo){
-        animal = animal + "<div><a data-type='image' data-fancybox='" + item["folder"] + "' href='img/" + item["category"] + "/" + item["folder"] + "/" + photo["name"] + ".jpg' data-caption='" + photo["title"]  + "'><img src='img/" + item["category"] + "/" + item["folder"] + "/-" + photo["name"] + ".jpg' ></a></div>";
+        animal = animal + "<div><div class='fancybox-elem' data-type='image' data-fancybox='" + item["folder"] + "' href='img/" + item["category"] + "/" + item["folder"] + "/" + photo["name"] + ".jpg' data-caption='" + photo["title"]  + "'><img src='img/" + item["category"] + "/" + item["folder"] + "/-" + photo["name"] + ".jpg' ></div></div>";
         count_photos = count_photos + 1;
     });
     if(item["inatlink"]) {
@@ -167,7 +167,7 @@ $('.show').hover(function() {
 // Build Galleries
 $('.gallery').each(function() {
     // From https://github.com/fancyapps/fancybox
-    $( this ).find('a').fancybox({
+    $( this ).find('.fancybox-elem').fancybox({
         loop: true,
         buttons: [
             "close"

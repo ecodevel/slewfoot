@@ -424,13 +424,13 @@ nav a:last-child img {
     flex-basis: 50%;
 }
 
-.gallery a:hover {
+.gallery div.fancybox-elem:hover {
     border: none;
     background-color: rgb(225,175,0);
     display: block;
 }
 
-.gallery a:hover img {
+.gallery div.fancybox-elem:hover img {
     opacity: 0.8;
 }
 
@@ -491,4 +491,17 @@ footer p {
     text-align: center;
     font-size: 1.6rem;
     color: rgb(255,255,255);
+}
+.fancybox-elem {
+    cursor: pointer;
+}
+
+.fancybox-caption a, .fancybox-caption a:link, .fancybox-caption a:visited, .fancybox-caption a:active {
+    color: rgb(225,175,0);
+    text-decoration: none;
+}
+
+.fancybox-caption a:hover, .fancybox-caption a:hover {
+    border-bottom: 1px solid;
+    text-decoration: none;
 }
