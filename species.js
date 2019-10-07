@@ -127,9 +127,9 @@ var species = [
         "subname":"Pelecanoides",
         "folder": "diving-petrel",
         "photos":[
-            {"name":"a", "title":"Whenua Hou Diving Petrel. Photo by Flying Penguin Force"},
-            {"name":"b", "title":"Whenua Hou Diving Petrel. Photo by Flying Penguin Force"},
-            {"name":"c", "title":"Whenua Hou Diving Petrel. Photo by Flying Penguin Force"}
+            {"name":"a", "title":"Whenua Hou Diving Petrel. Photo by <a href=\"https://www.facebook.com/FlyingPenguingForce/\">Flying Penguin Force</a>"},
+            {"name":"b", "title":"Whenua Hou Diving Petrel. Photo by <a href=\"https://www.facebook.com/FlyingPenguingForce/\">Flying Penguin Force</a>"},
+            {"name":"c", "title":"Whenua Hou Diving Petrel. Photo by <a href=\"https://www.facebook.com/FlyingPenguingForce/\">Flying Penguin Force</a>"}
         ],
         
         "desc":"About 5cm in length. Horizontal tarsus visibile.",
