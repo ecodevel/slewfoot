@@ -445,7 +445,7 @@ var species = [
         "subname":"Kakapo, Strigops habroptilus",
         "folder": "kakapo",
         "photos":[
-            {"name":"a", "title":"Right foot. Note claw holes. Photo by Andrew Digby"},
+            {"name":"a", "title":"Left foot. Note claw holes. Photo by Andrew Digby"},
             {"name":"b", "title":"Photo by Flying Penguin Force"},
             {"name":"c", "title":"Taken on Whenua Hou. Photo by Leon Berard www.leonberardphotography.co.nz"}
         ],
