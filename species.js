@@ -105,6 +105,20 @@ var species = [
         ],
         "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=3817&verifiable=any"
     },
+    {
+        "category": "birds",
+        "name":"Hoiho",
+        "subname":"Yellow-eyed penguin, Megadyptes antipodes",
+        "folder": "yellow-eyed-penguin",
+        "photos":[
+            {"name":"a", "title":"Photo by <a href=\"http://www.keaphotography.org\">Kimball Chen</a>"},
+            {"name":"b", "title":"Photo by <a href=\"http://www.keaphotography.org\">Kimball Chen</a>"}
+        ],
+        "desc":"13-14cm in length with claws and visible heel. Note narrow angle of toes (angle of all toes always less than 75&deg)",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/yellow-eyed-penguin","name":"Yellow-eyed penguin"}
+        ],
+    },
     // Albatrossses and Mollymawks
     // Fullmars, Prions, Petrels and shearwaters
     {
