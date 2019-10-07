@@ -453,6 +453,22 @@ var species = [
     },
     // Pidgeons and doves
     // Cockatoos, Parrots and parakeets
+    {
+        "category": "birds",
+        "name":"Kākāpō",
+        "subname":"Kakapo, Strigops habroptilus",
+        "folder": "kakapo",
+        "photos":[
+            {"name":"a", "title":"Left foot. Note claw holes. Photo by Andrew Digby"},
+            {"name":"b", "title":"Photo by Flying Penguin Force"},
+            {"name":"c", "title":"Taken on Whenua Hou. Photo by Leon Berard www.leonberardphotography.co.nz"}
+        ],
+        "desc":"11-12cm in length in distinctive K pattern. Larger and deeper than kea or kaka which are closer to 9cm long.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/kakapo","name":"Kākāpō"}
+        ],
+        "inatlink": null
+    },    
     // Cuckoos
     // Owls
     // Swifts
