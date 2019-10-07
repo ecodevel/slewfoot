@@ -424,13 +424,13 @@ nav a:last-child img {
     flex-basis: 50%;
 }
 
-.gallery div:hover {
+.gallery div.fancybox-elem:hover {
     border: none;
     background-color: rgb(225,175,0);
     display: block;
 }
 
-.gallery div:hover img {
+.gallery div.fancybox-elem:hover img {
     opacity: 0.8;
 }
 
