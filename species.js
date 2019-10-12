@@ -112,7 +112,8 @@ var species = [
         "folder": "yellow-eyed-penguin",
         "photos":[
             {"name":"a", "title":"Photo by <a href=\"http://www.keaphotography.org\">Kimball Chen</a>"},
-            {"name":"b", "title":"Photo by <a href=\"http://www.keaphotography.org\">Kimball Chen</a>"}
+            {"name":"b", "title":"Photo by <a href=\"http://www.keaphotography.org\">Kimball Chen</a>"},
+            {"name":"c", "title":"Photo by Ingrid Hutzler"}
         ],
         "desc":"13-14cm in length with claws and visible heel. Note narrow angle of toes (angle of all toes always less than 75&deg)",
         "similar":[
