@@ -133,7 +133,7 @@ var species = [
             {"name":"c", "title":"Whenua Hou Diving Petrel. Photo by <a href=\"https://www.facebook.com/FlyingPenguingForce/\">Flying Penguin Force</a>"}
         ],
         
-        "desc":"About 5cm in length. Horizontal tarsus visibile.",
+        "desc":"About 5cm in length. Horizontal tarsus visible.",
         "similar":[
             {"link":"http://www.nzbirdsonline.org.nz/species/common-diving-petrel","name":"Common diving petrel" },
             {"link":"http://nzbirdsonline.org.nz/species/south-georgian-diving-petrel","name":"South Georgian diving petrel" },
