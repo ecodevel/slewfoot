@@ -335,7 +335,7 @@ var species = [
             {"name":"a", "title":"Photo by Emily Roberts"},
             {"name":"b", "title":"Photo by Shaun Lee"},
             {"name":"c", "title":"Photo by Shaun Lee"},
-            {"name":"d", "title":"Photo by Shaun Lee"}
+            {"name":"d", "title":"Northern New Zealand Dotterel print on Pakiri Beach. Photo by Denise Poyner"}
         ],
         
         "desc":"3cm in length with asymmetric toes. Dotterels walk on their toes so heel not often visible.",
