@@ -140,6 +140,21 @@ var species = [
             {"link":"https://en.wikipedia.org/wiki/Whenua_Hou_diving_petrel","name":"Whenua Hou diving petrel" }
         ]
     },
+        {
+        "category": "birds",
+        "name":"Grey-faced petrel",
+        "subname":"Ōi, Pterodroma macroptera",
+        "folder": "grey-faced-petrel",
+        "photos":[
+            {"name":"a", "title":"Grey-faced petrel. Piha. Photo by Jordi Tablada"},
+            {"name":"b", "title":"Grey-faced petrel. Piha. Photo by Jordi Tablada"}
+        ],
+        
+        "desc":"About 7cm in length. Horizontal tarsus visible, longer outer toe. <span class='note'>[More seabird prints needed]</span>",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/grey-faced-petrel","name":"Grey-faced petrel" },
+        ]
+    },
     // Storm ptrels
     // Tropicbirds
     // Pelicans
