@@ -91,7 +91,7 @@ var species = [
     {
         "category": "birds",
         "name":"Little penguin",
-        "subname":"kororā, Eudyptula minor",
+        "subname":"Kororā, Eudyptula minor",
         "folder": "little-penguin",
         "photos":[
             {"name":"a", "title":"Photo by Emily Roberts"},
