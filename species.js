@@ -692,7 +692,7 @@ var species = [
             {"name":"a", "title":"Photo by Shaun Lee"},
             {"name":"b", "title":"Photo by Emily Roberts"},
             {"name":"c", "title":"Photo by Emily Roberts"},
-            {"name":"d", "title":"Photo by Emily Roberts"}
+            {"name":"d", "title":"Photo by Jeremy Painting"}
         ],
         "desc":"Four toes on forefoot, five on hindfoot. 1-2cm wide.",
         "similar":[
