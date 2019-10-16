@@ -273,8 +273,8 @@ var species = [
         "photos":[
             {"name":"a", "title":"Photo by Shaun Lee"},
             {"name":"b", "title":"Photo by Shaun Lee"},
-            {"name":"c", "title":"Photo by Shaun Lee"},
-            {"name":"d", "title":"Photo by Shaun Lee"},
+            {"name":"c", "title":"Photo by Jeremy Painting"},
+            {"name":"d", "title":"Photo by Jeremy Painting"},
         ],
         "desc":"4-5cm in length, weight evenly distrubuted, longer middle toe than a stilt.",
         "similar":[
@@ -403,7 +403,7 @@ var species = [
         "subname":"Karoro, Kelp gull, Larus dominicanus",
         "folder": "southern-black-backed-gull",
         "photos":[
-            {"name":"a", "title":"Photo by Shaun Lee"},
+            {"name":"a", "title":"Photo by Jeremy Painting"},
             {"name":"b", "title":"Photo by Shaun Lee"},
             {"name":"c", "title":"Photo by Shaun Lee"},
             {"name":"d", "title":"Photo by Jordi Tablada"}
@@ -686,19 +686,33 @@ var species = [
     {
         "category": "mammals",
         "name":"Ship rat",
-        "subname":"Rattus rattus",
+        "subname":"Rattus rattus, Black rat",
         "folder": "ship-rat",
         "photos":[
             {"name":"a", "title":"Photo by Shaun Lee"},
             {"name":"b", "title":"Photo by Emily Roberts"},
             {"name":"c", "title":"Photo by Emily Roberts"},
-            {"name":"d", "title":"Photo by Jeremy Painting"}
+            {"name":"d", "title":"Photo by Emily Roberts"}
         ],
         "desc":"Four toes on forefoot, five on hindfoot. 1-2cm wide.",
         "similar":[
             {"link":"http://www.pestdetective.org.nz/culprits/ship-rat/","name":"Ship rat"}
         ],
         "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=44575&verifiable=any"
+    },
+    {
+        "category": "mammals",
+        "name":"Norway rat",
+        "subname":"Rattus norvegicus, Brown rat",
+        "folder": "norway-rat",
+        "photos":[
+            {"name":"a", "title":"Photo by Jeremy Painting"}
+        ],
+        "desc":"Four toes on forefoot, five on hindfoot. 1.5-2.5cm wide.",
+        "similar":[
+            {"link":"http://www.pestdetective.org.nz/culprits/norway-rat/","name":"Norway rat"}
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=44576&verifiable=any"
     },
     {
         "category": "mammals",
