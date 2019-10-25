@@ -147,7 +147,9 @@ var species = [
         "folder": "grey-faced-petrel",
         "photos":[
             {"name":"a", "title":"Grey-faced petrel. Piha. Photo by Jordi Tablada"},
-            {"name":"b", "title":"Grey-faced petrel. Piha. Photo by Jordi Tablada"}
+            {"name":"b", "title":"Grey-faced petrel. Piha. Photo by Jordi Tablada"},
+            {"name":"c", "title":"Grey-faced petrel. Piha. Photo by Jordi Tablada"},
+            {"name":"d", "title":"Grey-faced petrel. Piha. Photo by Jordi Tablada"}
         ],
         
         "desc":"About 7cm in length. Horizontal tarsus visible, longer outer toe. <span class='note'>[More seabird prints needed]</span>",
