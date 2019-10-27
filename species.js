@@ -192,7 +192,7 @@ var species = [
             {"name":"c", "title":"Photo by Shaun Lee"},
             {"name":"d", "title":"Photo by Jordi Tablada"}
         ],
-        "desc":"11cm in length <span class='note'>[More data needed to confirm]</span>. More weight on toes, heal not always visible.",
+        "desc":"11-12cm in length. More weight on toes, heal not always visible.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/white-faced-heron","name":"White-faced heron"},
             {"link":"http://nzbirdsonline.org.nz/species/reef-heron","name":"Reef heron"},
