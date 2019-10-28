@@ -792,8 +792,8 @@ var species = [
         "photos":[
             {"name":"a", "title":"Photo by Shaun Lee"},
             {"name":"b", "title":"Photo by Shaun Lee"},
-            {"name":"c", "title":"Photo by <a href=\"https://inaturalist.nz/people/tangatawhenua\">@tangatawhenua</a>"},
-            {"name":"d", "title":"Photo by <a href=\"https://inaturalist.nz/people/tangatawhenua\">@tangatawhenua</a>"}
+            {"name":"c", "title":"Photo by Jordi Tablada"},
+            {"name":"d", "title":"Photo by Jordi Tablada"}
         ],
         "desc":"Spaghetti shaped trails, large range in size.",
         "similar":[
