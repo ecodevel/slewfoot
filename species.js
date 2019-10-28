@@ -71,7 +71,7 @@ var species = [
     },
     {
         "category": "birds",
-        "name":"Paradise Shelduck",
+        "name":"Paradise shelduck",
         "subname":"Tadorna variegata, Pūtangitangi",
         "folder": "paradise-shelduck",
         "photos":[
@@ -85,6 +85,22 @@ var species = [
             {"link":"http://nzbirdsonline.org.nz/species/paradise-shelduck","name":"Paradise shelduck"},
         ],
         "inatlink": "https://inaturalist.nz/observations?place_id=6803&project_id=animal-footprints-in-nz&subview=table&taxon_id=7072"
+    },
+    {
+        "category": "birds",
+        "name":"Back Swan",
+        "subname":"Cygnus atratus, kakīānau",
+        "folder": "black-swan",
+        "photos":[
+            {"name":"a", "title":"Photo by Shaun Lee"},
+            {"name":"b", "title":"Photo by Shaun Lee"},
+            {"name":"c", "title":"Photo by Shaun Lee"},
+            {"name":"d", "title":"Photo by Shaun Lee"}
+        ],
+        "desc":"15cm in length with webbing often visible.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/black-swan","name":"Black swan"},
+        ],
     },
     // Grebes
     // Penguins
@@ -767,6 +783,23 @@ var species = [
             {"link":"https://inaturalist.nz/taxa/408947-Pericoptus-truncatus","name":"Large Sand Scarab"}
         ],
         "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=408947&verifiable=any"
+    },
+    {
+        "category": "other",
+        "name":"True Whelks",
+        "subname":"Buccinidae, True Whelks",
+        "folder": "whelk",
+        "photos":[
+            {"name":"a", "title":"Photo by Shaun Lee"},
+            {"name":"b", "title":"Photo by Shaun Lee"},
+            {"name":"c", "title":"Photo by Jordi Tablada"},
+            {"name":"d", "title":"Photo by Jordi Tablada"}
+        ],
+        "desc":"Spaghetti shaped trails, large range in size.",
+        "similar":[
+            {"link":"https://inaturalist.nz/taxa/83329-Buccinidae","name":"True Whelks"}
+        ],
+        "inatlink": null
     },
     {
         "category": "other",
