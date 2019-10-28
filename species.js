@@ -88,7 +88,7 @@ var species = [
     },
     {
         "category": "birds",
-        "name":"Back Swan",
+        "name":"Black Swan",
         "subname":"Cygnus atratus, kakīānau",
         "folder": "black-swan",
         "photos":[
