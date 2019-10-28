@@ -483,7 +483,8 @@ footer p {
     text-align: center;
 }
 
-/* Fancybox tweaks */
+/* FANCYBOX TWEAKS */
+
 .fancybox-content {
     background: transparent;   
 }
@@ -504,4 +505,37 @@ footer p {
 .fancybox-caption a:hover, .fancybox-caption a:hover {
     border-bottom: 1px solid;
     text-decoration: none;
+}
+
+/* PRINT */
+
+@media print { 
+    .header, footer, .menu, .show {
+        display: none !important;
+    }
+    .animal h1, .animal h4, .animal .desc, .animal .species {
+        display: block !important;
+    }
+    body {
+        background: none;
+    }
+    .animals {
+        display: block;
+    }
+    .animal-pics {
+        flex-direction: row;
+    }
+    .animal-pics .column {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+    .animal-pics .photo {
+        border: 0;
+    }
+    .animal-pics .photo .thephoto {
+        opacity: 1;
+    }
+    .animal {
+        page-break-inside: avoid;
+    }
 }
