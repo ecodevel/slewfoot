@@ -786,9 +786,9 @@ var species = [
     },
     {
         "category": "other",
-        "name":"True Whelks",
-        "subname":"Buccinidae, True Whelks",
-        "folder": "whelk",
+        "name":"Sea and freshwater snails",
+        "subname":"Caenogastropod Snails",
+        "folder": "sea-and-freshwater-snails",
         "photos":[
             {"name":"a", "title":"Photo by Shaun Lee"},
             {"name":"b", "title":"Photo by Shaun Lee"},
@@ -797,7 +797,7 @@ var species = [
         ],
         "desc":"Spaghetti shaped trails, large range in size.",
         "similar":[
-            {"link":"https://inaturalist.nz/taxa/83329-Buccinidae","name":"True Whelks"}
+            {"link":"https://inaturalist.nz/taxa/246139-Caenogastropoda","name":"Caenogastropod Snails"}
         ],
         "inatlink": null
     },
