@@ -610,7 +610,8 @@ var species = [
         "folder": "hare",
         "photos":[
             {"name":"a", "title":"Hind foot. Photo by Jon Sullivan"},
-            {"name":"b", "title":"Fore foot. Photo by Jon Sullivan"}
+            {"name":"b", "title":"Fore foot. Photo by Jon Sullivan"},
+            {"name":"c", "title":"Photo by Shaun Lee"}
         ],
         "desc":"Hind feet much longer than fore feet but land in front of forefeet.",
         "similar":[
