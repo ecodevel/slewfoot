@@ -88,7 +88,7 @@ var species = [
     },
     {
         "category": "birds",
-        "name":"Black Swan",
+        "name":"Black swan",
         "subname":"Cygnus atratus, kakīānau",
         "folder": "black-swan",
         "photos":[
@@ -100,6 +100,20 @@ var species = [
         "desc":"15cm in length with webbing often visible.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/black-swan","name":"Black swan"},
+        ],
+    },
+    {
+        "category": "birds",
+        "name":"Canada goose",
+        "subname":"Branta canadensis",
+        "folder": "canada-goose",
+        "photos":[
+            {"name":"a", "title":"Photo by Shaun Lee"},
+            {"name":"b", "title":"Photo by Shaun Lee"}
+        ],
+        "desc":"10cm in length with webbing often visible.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/canada-goose","name":"Canada goose"},
         ],
     },
     // Grebes
@@ -192,6 +206,23 @@ var species = [
         "desc":"9cm in length. More weight on the outer toe.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/pied-shag","name":"Pied Shag"}
+        ]
+    },
+    {
+        "category": "birds",
+        "name":"Little Shag",
+        "subname":"Little pied shag, little cormorant, kawau paka, Phalacrocorax melanoleucos",
+        "folder": "little-shag",
+        "photos":[
+            {"name":"a", "title":"Photo by Shaun Lee"},
+            {"name":"b", "title":"Photo by Shaun Lee"},
+            {"name":"c", "title":"Photo by Shaun Lee"},
+            {"name":"d", "title":"Photo by Shaun Lee"}
+        ],
+        
+        "desc":"6–7cm in length. Hind toe often visible. Webbing sometimes visible.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/little-shag","name":"Little Shag"}
         ]
     },
     // Darters
@@ -320,6 +351,21 @@ var species = [
         ],
         "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=3946&verifiable=any"
     },
+    {
+        "category": "birds",
+        "name":"Lesser knot",
+        "subname":"Calidris canutus, red knot, huahou",
+        "folder": "lesser-knot",
+        "photos":[
+            {"name":"a", "title":"Photo by Shaun Lee"},
+            {"name":"b", "title":"Photo by Shaun Lee"}
+        ],
+        "desc":"3.7cm in length. Hind toe not always visible.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/lesser-knot","name":"Lesser knot"}
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=3845&verifiable=any"
+    },
     // Oystercatchers
     {
         "category": "birds",
@@ -400,7 +446,7 @@ var species = [
         "subname":"Masked lapwing, Vanellus miles",
         "folder": "spur-winged-plover",
         "photos":[
-            {"name":"a", "title":"Photo by Emily Roberts"},
+            {"name":"a", "title":"Photo by Shaun Lee"},
             {"name":"b", "title":"Photo by Emily Roberts"},
             {"name":"c", "title":"Photo by Jordi Tablada"},
             {"name":"d", "title":"Photo by Jordi Tablada"}
@@ -770,7 +816,21 @@ var species = [
     // Other
     {
         "category": "other",
-        "name":"Large Sand Scarab",
+        "name":"Purple rock crab",
+        "subname":"Leptograpsus variegatus, swift-footed shore crab, Pāpaka nui",
+        "folder": "purple-rock-crab",
+        "photos":[
+            {"name":"a", "title":"Photo by Shaun Lee"}
+        ],
+        "desc":"More observations required",
+        "similar":[
+            {"link":"https://inaturalist.nz/guide_taxa/355911","name":"Purple rock crab"}
+        ],
+        "inatlink": null
+    },
+    {
+        "category": "other",
+        "name":"Large sand scarab",
         "subname":"Pericoptus truncatus, Ngungutawa",
         "folder": "large-sand-scarab",
         "photos":[
@@ -781,7 +841,7 @@ var species = [
         ],
         "desc":"Leaves distinctive trails at night. Can be found hidding in the sand during the day at the end of their tracks.",
         "similar":[
-            {"link":"https://inaturalist.nz/taxa/408947-Pericoptus-truncatus","name":"Large Sand Scarab"}
+            {"link":"https://inaturalist.nz/taxa/408947-Pericoptus-truncatus","name":"Large sand scarab"}
         ],
         "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=408947&verifiable=any"
     },
