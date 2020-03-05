@@ -820,7 +820,10 @@ var species = [
         "subname":"Leptograpsus variegatus, swift-footed shore crab, Pāpaka nui",
         "folder": "purple-rock-crab",
         "photos":[
-            {"name":"a", "title":"Photo by Shaun Lee"}
+            {"name":"a", "title":"Photo by Shaun Lee"},
+             {"name":"b", "title":"Photo by Jacqui Geux"},
+              {"name":"c", "title":"Photo by Jacqui Geux"},
+               {"name":"d", "title":"Photo by Jacqui Geux"}
         ],
         "desc":"More observations required",
         "similar":[
