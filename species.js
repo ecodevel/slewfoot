@@ -53,6 +53,22 @@ var species = [
     // Waterfowl
     {
         "category": "birds",
+        "name":"Pateke",
+        "subname":"Anas chlorotis, Brown Teal",
+        "folder": "pateke",
+        "photos":[
+            {"name":"a", "title":"Photo by Shaun Lee"},
+            {"name":"b", "title":"Photo by Shaun Lee"},
+            {"name":"c", "title":"Photo by Shaun Lee"}
+        ],
+        "desc":"6cm in length. Short steps infront of each other. Shorter inner toe.",
+        "similar":[
+            {"link":"http://www.nzbirdsonline.org.nz/species/brown-teal","name":"Pateke"},
+        ],
+        "inatlink": null
+    },
+    {
+        "category": "birds",
         "name":"Mallard",
         "subname":"Anas platyrhynchos",
         "folder": "mallard",
