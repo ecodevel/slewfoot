@@ -263,6 +263,23 @@ var species = [
         ],
         "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=4929&verifiable=any"
     },
+    
+    {
+        "category": "birds",
+        "name":"Australasian bittern",
+        "subname":"Matuku hūrepo, Botaurus poiciloptilus",
+        "folder": "bittern",
+        "photos":[
+            {"name":"a", "title":"Photo by hudsonianjoe"},
+            {"name":"b", "title":"Photo by hudsonianjoe"}
+        ],
+        "desc":"18-23cm in length (males larger). Inner toe longer than outer. <span class='note'>[More obersvations needed.]</span>",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/australasian-bittern","name":"Australasian bittern"}
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=5032&verifiable=any"
+    },
+    
     // Ibises and Spoonbills
    {
         "category": "birds",
@@ -274,7 +291,7 @@ var species = [
             {"name":"b", "title":"Photo by Shaun Lee"},
             {"name":"c", "title":"Left to right scapes through the print made by sweeps of the bill. Photo by Shaun Lee"}
         ],
-        "desc":"Around 18cm in length, more obersvations needed.",
+        "desc":"Around 18cm in length.<span class='note'>[More obersvations needed.]</span>",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/royal-spoonbill","name":"Royal Spoonbill"}
         ]
@@ -292,7 +309,7 @@ var species = [
             {"name":"c", "title":"Photo by Shaun Lee"},
             {"name":"d", "title":"Photo by Jordi Tablada"},
         ],
-        "desc":"13-15cm in length depending on the size of the bird.",
+        "desc":"13-15cm in length depending on the size of the bird. Outer toe longer than inner.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/pukeko","name":"Pukeko"}
         ],
