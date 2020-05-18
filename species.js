@@ -289,9 +289,10 @@ var species = [
         "photos":[
             {"name":"a", "title":"Photo by Shaun Lee"},
             {"name":"b", "title":"Photo by Shaun Lee"},
-            {"name":"c", "title":"Left to right scapes through the print made by sweeps of the bill. Photo by Shaun Lee"}
+            {"name":"c", "title":"Left to right scapes through the print made by sweeps of the bill. Photo by Shaun Lee"},
+            {"name":"d", "title":"Photo by Shaun Lee"}
         ],
-        "desc":"Around 18cm in length.<span class='note'>[More obersvations needed.]</span>",
+        "desc":"Around 14-15cm in length. Stronger footpad than a pukeko.<span class='note'> [Back toe mark 3cm longer when feeding in water?]</span>",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/royal-spoonbill","name":"Royal Spoonbill"}
         ]
