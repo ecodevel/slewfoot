@@ -626,6 +626,23 @@ var species = [
     // White-eyes
     // Swallows and Martins
     // Thrushes
+    {
+        "category": "birds",
+        "name":"Eurasian blackbird",
+        "subname":"Manu pango, Turdus merula",
+        "folder": "blackbird",
+        "photos":[
+            {"name":"a", "title":"Photo by Jordi Tablada"},
+            {"name":"b", "title":"Photo by Jordi Tablada"},
+            {"name":"c", "title":"Photo by Jordi Tablada"}
+        ],
+        "desc":"5cm in length. Hoping and walking, back claw drags when walking.",
+        "similar":[
+            {"link":"http://www.nzbirdsonline.org.nz/species/eurasian-skylark","name":"Eurasian Skylark"},
+            {"link":"http://www.nzbirdsonline.org.nz/species/new-zealand-pipit","name":"Pipit"}
+        ],
+        "inatlink": null
+    },
     // Starlings and Mynas
     {    
     "category": "birds",
