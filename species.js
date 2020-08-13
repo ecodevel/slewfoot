@@ -638,8 +638,7 @@ var species = [
         ],
         "desc":"4cm in length. Hoping and walking, back claw drags when walking.",
         "similar":[
-            {"link":"http://www.nzbirdsonline.org.nz/species/eurasian-skylark","name":"Eurasian Skylark"},
-            {"link":"http://www.nzbirdsonline.org.nz/species/new-zealand-pipit","name":"Pipit"}
+            {"link":"http://nzbirdsonline.org.nz/species/eurasian-blackbird","name":"Eurasian blackbird"}
         ],
         "inatlink": null
     },
