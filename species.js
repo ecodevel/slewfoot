@@ -636,7 +636,7 @@ var species = [
             {"name":"b", "title":"Photo by Jordi Tablada"},
             {"name":"c", "title":"Photo by Jordi Tablada"}
         ],
-        "desc":"5cm in length. Hoping and walking, back claw drags when walking.",
+        "desc":"4cm in length. Hoping and walking, back claw drags when walking.",
         "similar":[
             {"link":"http://www.nzbirdsonline.org.nz/species/eurasian-skylark","name":"Eurasian Skylark"},
             {"link":"http://www.nzbirdsonline.org.nz/species/new-zealand-pipit","name":"Pipit"}
