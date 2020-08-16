@@ -658,6 +658,22 @@ var species = [
         "inatlink": null
     },
     // Old world sparrows
+    {    
+    "category": "birds",
+        "name":"House sparrow",
+        "subname":"Tiu, Passer domesticus",
+        "folder": "house-sparrow",
+        "photos":[
+            {"name":"a", "title":"Photo by Photo by Jordi Tablada"},
+            {"name":"b", "title":"Photo by Photo by Jordi Tablada"},
+            {"name":"c", "title":"Photo by Photo by Jordi Tablada"}
+        ],
+        "desc":"About 3-3.5cm in length. In pairs (hopping). <span class='note'>[prints of similar species not recorded]</span>",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/house-sparrow","name":"House sparrow"}
+        ],
+        "inatlink": null
+    },
     // Pipits and Wagtails
     // Accentors
     // Finches
