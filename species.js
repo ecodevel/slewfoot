@@ -649,7 +649,7 @@ var species = [
         "subname":"Common myna, Acridotheres tristis",
         "folder": "myna",
         "photos":[
-            {"name":"a", "title":"Photo by Photo by Jordi Tablada"},
+            {"name":"a", "title":"Photo by Jordi Tablada"},
         ],
         "desc":"About 2cm in length. <span class='note'>[A more precise meausrement needed]</span>",
         "similar":[
@@ -664,9 +664,9 @@ var species = [
         "subname":"Tiu, Passer domesticus",
         "folder": "house-sparrow",
         "photos":[
-            {"name":"a", "title":"Photo by Photo by Jordi Tablada"},
-            {"name":"b", "title":"Photo by Photo by Jordi Tablada"},
-            {"name":"c", "title":"Photo by Photo by Jordi Tablada"}
+            {"name":"a", "title":"Photo by Jordi Tablada"},
+            {"name":"b", "title":"Photo by Jordi Tablada"},
+            {"name":"c", "title":"Photo by Jordi Tablada"}
         ],
         "desc":"About 3-3.5cm in length. In pairs (hopping). <span class='note'>[prints of similar species not recorded]</span>",
         "similar":[
