@@ -566,6 +566,22 @@ var species = [
         "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=4478&verifiable=any"
     },
     // Pidgeons and doves
+        {
+        "category": "birds",
+        "name":"Rock Pigeon",
+        "subname":"Feral pigeon, Columba livia",
+        "folder": "rock-pigeon",
+        "photos":[
+            {"name":"a", "title":"Photo by William Terry"},
+            {"name":"b", "title":"In concrete. Photo by Susan Hewitt"},
+            {"name":"c", "title":"In concrete. Photo by Shaun Lee"}
+        ],
+        "desc":"6-6.5cm in length with visible back toe.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/rock-pigeon","name":"Rock Pigeon"}
+        ],
+        "inatlink": "https://inaturalist.nz/observations?locale=en&place_id=6803&preferred_place_id=any&project_id=animal-footprints-in-nz&taxon_id=3017&verifiable=any"
+    }, 
     // Cockatoos, Parrots and parakeets
     {
         "category": "birds",
