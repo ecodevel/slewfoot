@@ -589,7 +589,7 @@ var species = [
         "subname":"Feral pigeon, Columba livia",
         "folder": "rock-pigeon",
         "photos":[
-            {"name":"a", "title":"Photo by William Terry"},
+            {"name":"a", "title":"Photo by Terry Hunefeld"},
             {"name":"b", "title":"In concrete. Photo by Susan Hewitt"},
             {"name":"c", "title":"In concrete. Photo by Shaun Lee"}
         ],
