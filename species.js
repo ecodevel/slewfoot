@@ -50,6 +50,23 @@ var species = [
         "inatlink": null
     },
     // Gamebirds
+    {
+        "category": "birds",
+        "name":"Common pheasant",
+        "subname":"Phasianus colchicus, Ring-necked pheasant",
+        "folder": "pheasant",
+        "photos":[
+            {"name":"a", "title":"Photo by Kim Cabrera"},
+            {"name":"b", "title":"Photo by Kim Cabrera"},
+            {"name":"c", "title":"Sliding down a sand dune. Photo by Arnim Littek"}
+        ],
+        "desc":"6.5cm in length. Small rear toe.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/common-pheasant","name":"Common pheasant"},
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=981&verifiable=any"
+    },
+    
     // Waterfowl
     {
         "category": "birds",
