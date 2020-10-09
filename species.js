@@ -220,9 +220,26 @@ var species = [
             {"link":"http://nzbirdsonline.org.nz/species/grey-faced-petrel","name":"Grey-faced petrel" },
         ]
     },
-    // Storm ptrels
+    // Storm petrels
     // Tropicbirds
     // Pelicans
+    {
+        "category": "birds",
+        "name":"Australian pelican",
+        "subname":"Pelecanus conspicillatus",
+        "folder": "pelican",
+        "photos":[
+            {"name":"a", "title":"Photo by Tim"},
+            {"name":"b", "title":"Photo by Tim"},
+            {"name":"c", "title":"Photo by Tim"},
+            {"name":"d", "title":"Photo by Tim"}
+        ],
+        
+        "desc":"9cm in length, 16cm wide. Webbing soimetimes visible.",
+        "similar":[
+            {"link":"http://www.nzbirdsonline.org.nz/species/australian-pelican","name":"Australian pelican"}
+        ]
+    },
     // Gannets and boobies
     // Shags
     {
@@ -238,7 +255,7 @@ var species = [
         
         "desc":"9cm in length. More weight on the outer toe.",
         "similar":[
-            {"link":"http://nzbirdsonline.org.nz/species/pied-shag","name":"Pied Shag"}
+            {"link":"http://nzbirdsonline.org.nz/species/pied-shag","name":"Pied shag"}
         ]
     },
     {
@@ -272,7 +289,7 @@ var species = [
             {"name":"c", "title":"Photo by Shaun Lee"},
             {"name":"d", "title":"Photo by Jordi Tablada"}
         ],
-        "desc":"11-12cm in length. More weight on toes, heal not always visible.",
+        "desc":"10-12cm in length. More weight on toes, heal not always visible.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/white-faced-heron","name":"White-faced heron"},
             {"link":"http://nzbirdsonline.org.nz/species/reef-heron","name":"Reef heron"},
