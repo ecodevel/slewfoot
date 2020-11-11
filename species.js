@@ -58,7 +58,8 @@ var species = [
         "photos":[
             {"name":"a", "title":"Photo by Kim Cabrera"},
             {"name":"b", "title":"Photo by Kim Cabrera"},
-            {"name":"c", "title":"Sliding down a sand dune. Photo by Arnim Littek"}
+            {"name":"c", "title":"Sliding down a sand dune. Photo by Arnim Littek"},
+            {"name":"d", "title":"Photo by Maggie Starr"},
         ],
         "desc":"6.5cm in length. Small rear toe.",
         "similar":[
