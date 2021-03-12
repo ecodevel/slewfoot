@@ -596,7 +596,8 @@ var species = [
         ],
         "desc":"2cm in length with webbing visible and middle toe elongated. Similar to the Caspian Tern but smaller.",
         "similar":[
-            {"link":"http://nzbirdsonline.org.nz/species/white-fronted-tern","name":"White-fronted Tern"}
+            {"link":"http://nzbirdsonline.org.nz/species/white-fronted-tern","name":"White-fronted Tern"},
+            {"link":"http://nzbirdsonline.org.nz/species/black-fronted-tern","name":"Black-fronted Tern"}
         ],
         "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=4478&verifiable=any"
     },
