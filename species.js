@@ -476,6 +476,24 @@ var species = [
     // Plovers, Dotterels and Lapwings
     {
         "category": "birds",
+        "name":"Ruddy turnstone",
+        "subname":"Arenaria interpres",
+        "folder": "ruddy-turnstone",
+        "photos":[
+            {"name":"a", "title":"Photo by Shaun Lee"},
+            {"name":"b", "title":"Photo by Shaun Lee"},
+            {"name":"c", "title":"Photo by Shaun Lee"},
+            {"name":"d", "title":"Photo by Shaun Lee"}
+        ],
+        
+        "desc":"3cm in length, quite symetrical.",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/ruddy-turnstone","name":"Ruddy turnstone"}
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=3938&verifiable=any"
+    },
+    {
+        "category": "birds",
         "name":"Dotterel",
         "subname":"Tūturiwhatu, Charadrius Obscurus",
         "folder": "dotterel",
