@@ -626,11 +626,12 @@ var species = [
         "subname":"Feral pigeon, Columba livia",
         "folder": "rock-pigeon",
         "photos":[
-            {"name":"a", "title":"Photo by Terry Hunefeld"},
-            {"name":"b", "title":"In concrete. Photo by Susan Hewitt"},
-            {"name":"c", "title":"In concrete. Photo by Shaun Lee"}
+            {"name":"a", "title":"In concrete. Photo by Susan Hewitt"},
+            {"name":"b", "title":"Photo by Jordi Tablada"},
+            {"name":"c", "title":"In concrete. Photo by Shaun Lee"},
+            {"name":"d", "title":"Photo by Jordi Tablada"}
         ],
-        "desc":"6-6.5cm in length with visible back toe.",
+        "desc":"5-6cm in length, often with visible back toe.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/rock-pigeon","name":"Rock Pigeon"}
         ],
