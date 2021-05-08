@@ -251,7 +251,8 @@ var species = [
         "photos":[
             {"name":"a", "title":"Photo by Eliane Lagnaz"},
             {"name":"b", "title":"Photo by Eliane Lagnaz"},
-            {"name":"c", "title":"Photo by Eliane Lagnaz"}
+            {"name":"c", "title":"Photo by Dave Holland"},
+            {"name":"d", "title":"Photo by Dave Holland"}
         ],
         
         "desc":"9cm in length. More weight on the outer toe.",
