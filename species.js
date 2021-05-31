@@ -307,7 +307,8 @@ var species = [
         "folder": "bittern",
         "photos":[
             {"name":"a", "title":"Photo by hudsonianjoe"},
-            {"name":"b", "title":"Photo by hudsonianjoe"}
+            {"name":"b", "title":"Photo by hudsonianjoe"},
+            {"name":"c", "title":"Photo of a massive print by Virginia Nicol"}
         ],
         "desc":"18-23cm in length (males larger). Inner toe longer than outer. <span class='note'>[More obersvations needed.]</span>",
         "similar":[
@@ -706,7 +707,8 @@ var species = [
         "photos":[
             {"name":"a", "title":"Photo by Jordi Tablada"},
             {"name":"b", "title":"Photo by Jordi Tablada"},
-            {"name":"c", "title":"Photo by Jordi Tablada"}
+            {"name":"c", "title":"Photo by Jordi Tablada"},
+            {"name":"d", "title":"Photo by Shaun Lee"}
         ],
         "desc":"4cm in length. Hoping and walking, back claw drags when walking.",
         "similar":[
