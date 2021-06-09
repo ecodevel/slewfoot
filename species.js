@@ -402,6 +402,23 @@ var species = [
         ],
         "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=464857&verifiable=any"
     },
+    {
+        "category": "birds",
+        "name":"Crake",
+        "subname":"Zapornia Crakes",
+        "folder": "crakes",
+        "photos":[
+            {"name":"a", "title":"Photo by Oscar Thomas"},
+            {"name":"b", "title":"Photo by George Hobson"},
+            {"name":"c", "title":"Photo by Shaun Lee"},
+            {"name":"d", "title":"Photo by Shaun Lee"},
+        ],
+        "desc":"2.5-3.5cm in length <span class='note'>[A more precise meausrement needed]</span>",
+        "similar":[
+            {"link":"http://nzbirdsonline.org.nz/species/spotless-crake","name":"Spotles crake"}, {"link":"http://nzbirdsonline.org.nz/species/marsh-crake","name":"Marsh crake"}
+        ],
+        "inatlink": "https://inaturalist.nz/observations?locale=en&place_id=6803&preferred_place_id=6803&project_id=animal-footprints-in-nz&subview=table&taxon_id=508913"
+    },
     // Snipes, Sandpipers, Godwits and allies
     {
         "category": "birds",
