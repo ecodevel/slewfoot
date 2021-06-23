@@ -535,8 +535,8 @@ var species = [
         "subname":"Tūturiwhatu, Charadrius bicinctus",
         "folder": "banded-dotterel",
         "photos":[
-            {"name":"a", "title":"Photo by Emily Roberts"},
-            {"name":"b", "title":"Photo by Emily Roberts"},
+            {"name":"a", "title":"Photo by Oscar Thomas"},
+            {"name":"b", "title":"Photo by Oscar Thomas"},
             {"name":"c", "title":"Photo by Shaun Lee"},
             {"name":"d", "title":"Photo by Shaun Lee"}
         ],
