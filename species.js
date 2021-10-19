@@ -1024,6 +1024,23 @@ var species = [
     },
     {
         "category": "other",
+        "name":"Leaf-veined slug",
+        "subname":"Native slugs, Athoracophoridae",
+        "folder": "leaf-veined-slug",
+        "photos":[
+            {"name":"a", "title":"Photo by Dave Holland"},
+            {"name":"b", "title":"Photo by Dave Holland"},
+            {"name":"c", "title":"Photo by Dave Holland"},
+            {"name":"d", "title":"Photo by Dave Holland"}
+        ],
+        "desc":"These feeding tracks are many 'bite' marks made by the slugs radular",
+        "similar":[
+            {"link":"https://inaturalist.nz/taxa/372955-Athoracophoridae","name":"Leaf-veined slugs"}
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&subview=map&taxon_id=372955&verifiable=any"
+    },
+    {
+        "category": "other",
         "name":"Gecko",
         "subname":"Mokomoko",
         "folder": "gecko",
