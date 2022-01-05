@@ -956,6 +956,21 @@ var species = [
     },
     {
         "category": "mammals",
+        "name":"Sheep",
+        "subname":"Pirikahu, Ovis aries",
+        "folder": "sheep",
+        "photos":[
+            {"name":"a", "title":"Photo by Shaun Lee"},
+            {"name":"b", "title":"Photo by Shaun Lee"}
+        ],
+        "desc":"Cleaved hooves with round tips (not pointed)",
+        "similar":[
+            {"link":"https://inaturalist.nz/taxa/121578-Ovis-aries","name":"Sheep"}
+        ],
+        "inatlink": null
+    },
+        {
+        "category": "mammals",
         "name":"Goat",
         "subname":"Koati, Capra hircus",
         "folder": "goat",
