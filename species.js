@@ -1022,6 +1022,23 @@ var species = [
     },
     {
         "category": "other",
+        "name":"Large sand scarab larvae",
+        "subname":"Pericoptus truncatus, Ngungutawa",
+        "folder": "large-sand-scarab-larvae",
+        "photos":[
+            {"name":"a", "title":"Photo by Trina Smith"},
+            {"name":"b", "title":"Photo by Trina Smith"},
+            {"name":"c", "title":"Photo by Trina Smith"},
+            {"name":"d", "title":"Photo by Trina Smith"}
+        ],
+        "desc":"Simalar size to the adult beetle but footrints only visible on the outside bend of tracks.",
+        "similar":[
+            {"link":"https://inaturalist.nz/taxa/408947-Pericoptus-truncatus","name":"Large sand scarab"}
+        ],
+        "inatlink": "https://inaturalist.nz/observations?place_id=any&project_id=animal-footprints-in-nz&taxon_id=408947&verifiable=any"
+    },
+    {
+        "category": "other",
         "name":"Sea and freshwater snails",
         "subname":"Caenogastropod Snails",
         "folder": "sea-and-freshwater-snails",
