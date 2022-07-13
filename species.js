@@ -741,13 +741,16 @@ var species = [
         "folder": "myna",
         "photos":[
             {"name":"a", "title":"Photo by Jordi Tablada"},
+            {"name":"b", "title":"Photo by Jordi Tablada"},
+            {"name":"c", "title":"Photo by Jordi Tablada"},
+            {"name":"d", "title":"Photo by Jordi Tablada"},
         ],
-        "desc":"About 2cm in length. <span class='note'>[A more precise meausrement needed]</span>",
+        "desc":"4.5cm in length",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/common-myna","name":"Common myna"}
-        ],
-        "inatlink": null
-    },
+    ],
+        "inatlink": "https://inaturalist.nz/observations?locale=en&place_id=6803&preferred_place_id=any&project_id=animal-footprints-in-nz&taxon_id=204454&verifiable=any"
+    }, 
     // Old world sparrows
     {    
     "category": "birds",
