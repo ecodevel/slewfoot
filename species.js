@@ -665,8 +665,9 @@ var species = [
         "photos":[
             {"name":"a", "title":"Left foot. Note claw holes. Photo by Andrew Digby"},
             {"name":"b", "title":"Photo by <a href=\"https://www.facebook.com/FlyingPenguingForce/\">Flying Penguin Force</a>"},
-            {"name":"c", "title":"Taken on Whenua Hou. Photo by <a href=\"https://www.leonberardphotography.co.nz\">Leon Berard</a>"}
-        ],
+            {"name":"c", "title":"Taken on Whenua Hou. Photo by <a href=\"https://www.leonberardphotography.co.nz\">Leon Berard</a>"},
+            {"name":"d", "title":"Right foot. Photo by Brad Windust"},
+            ],
         "desc":"11-12cm in length in distinctive K pattern. Larger and deeper than kea or kaka which are closer to 9cm long.",
         "similar":[
             {"link":"http://nzbirdsonline.org.nz/species/kakapo","name":"Kākāpō"}
